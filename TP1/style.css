@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#links a {
+    color: white;
+    margin: 20px 20px 20px 100px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.learnmore a {
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    margin: 20px 50px;
+    padding: 4px 11px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    min-width: 200px;
+    max-width: 800px;
+    position: relative;
+}
+
+figure {
+    display: inline-block;
+}
+
+#top {
+    z-index: 99;
+    position: fixed;
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    bottom: 50px;
+    right: 50px;
+    padding: 4px 11px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black; 
+    position: relative;
+    border: 1px solid black;
+    padding: 20px 50px;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+h1 {
+    position: relative;
+    color: black;
+    top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  line-height: 20px;
+  margin-top: 70px;
+  text-align: center;
+  position: relative;
+}
+
+h3 {
+    margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  position: relative;
+}
+
+p, ul, ol {
+  color: grey;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 20px;
+  position: relative;
+}
