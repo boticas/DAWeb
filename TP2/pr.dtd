@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT project_record (denominação, cabeçalho, autores, resumo, ficheiros, data)>
+<!ELEMENT denominação (#PCDATA)>
+<!ELEMENT cabeçalho (keyname, título, subtítulo, data_início, data_fim, docente)>
+<!ELEMENT keyname (#PCDATA)>
+<!ELEMENT título (#PCDATA)>
+<!ELEMENT subtítulo (#PCDATA)>
+<!ELEMENT data_início (#PCDATA)>
+<!ELEMENT data_fim (#PCDATA)>
+<!ELEMENT docente (#PCDATA)>
+<!ELEMENT autores (autor)+>
+<!ELEMENT autor (nome, email, github?)+>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT github (#PCDATA)>
+<!ELEMENT resumo (#PCDATA|documento)*>
+<!ELEMENT documento (#PCDATA)>
+<!ELEMENT ficheiros (ficheiro)+>
+<!ELEMENT ficheiro (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+
+<!ATTLIST docente
+            link CDATA #REQUIRED>
+            
+<!ATTLIST email
+            link CDATA #REQUIRED>
+            
+<!ATTLIST github
+            link CDATA #REQUIRED>
+            
+<!ATTLIST documento
+            link CDATA #REQUIRED>
+            
+<!ATTLIST ficheiro
+            link CDATA #REQUIRED>            

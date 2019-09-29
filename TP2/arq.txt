@@ -1,0 +1,6 @@
+FICHA 3
+Exercício 6 - Queries sobre os arqueossítios
+
+(a) /ARQSITS/ARQELEM/IDENTI[contains(../CONCEL, 'Amares')]
+(b) /ARQSITS/ARQELEM/CONCEL
+(c) /ARQSITS/ARQELEM/DESCRI[contains(../CONCEL, 'Montalegre')]

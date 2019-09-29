@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project_record SYSTEM "file:/C:/Users/joseb/Desktop/Universidade/mestrado/daw/TP2/pr.dtd">
+<project_record>
+    <denominação>TP2</denominação>
+    <cabeçalho>
+        <keyname>TP2_PG41081</keyname>
+        <título>XML, XPath e DTD's</título>
+        <subtítulo>TPC nº2 da UC de Desenvolvimento de Aplicações Web</subtítulo>
+        <data_início>24/09/2019</data_início>
+        <data_fim>01/10/2019</data_fim>
+        <docente link="mailto:jcr@di.uminho.pt">José Carlos Ramalho</docente>
+    </cabeçalho>
+    <autores>
+        <autor>
+            <nome>José Boticas</nome>
+            <email link="mailto:pg41081@alunos.uminho.pt">pg41081@alunos.uminho.pt</email>
+            <github link="github.com/SacitobJose">SacitobJose</github>
+        </autor>
+    </autores>
+    <resumo>Este trabalho teve como objetivo consolidar os conteúdos lecionados na aula de 24/09/2019 da UC de Desenvolvimento de Aplicações Web.
+            Para isso, foi sugerido que se definisse uma DTD que validasse o presente documento. Para além disso, foi sugerida a resolução dos exercícios 6 e 7 da ficha 3 fornecida pelo docente.
+            O exercício 6 consiste em escrever expressões XPath para obter diversos elementos de um dado ficheiro XML (<documento link="arqueossitios.xml">arqueossitios.xml</documento>).
+            O ficheiro 7 consiste em definir uma DTD que validasse o mesmo ficheiro.</resumo>
+    <ficheiros>
+        <ficheiro link="pr.xml">Presente documento</ficheiro>
+        <ficheiro link="pr.dtd">DTD para validar Project Records (incluindo este)</ficheiro>
+        <ficheiro link="arq.txt">Exercício 6</ficheiro>
+        <ficheiro link="arq.dtd">Exercício 7</ficheiro>
+    </ficheiros>
+    <data>29/09/2019</data>
+</project_record>
