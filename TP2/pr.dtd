@@ -15,7 +15,6 @@
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT github (#PCDATA)>
 <!ELEMENT resumo (#PCDATA)>
-<!ELEMENT documento (#PCDATA)>
 <!ELEMENT ficheiros (ficheiro)+>
 <!ELEMENT ficheiro (#PCDATA)>
 <!ELEMENT data (#PCDATA)>
