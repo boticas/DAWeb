@@ -33,7 +33,7 @@
         <xsl:result-document href="website/arqelem-{generate-id()}.html"> <!-- generate-id() gera um id para os nodos da ada; ao atravessar a árvore, gera sempre o mesmo id para o mesmo nodo -->
             <html>
                 <head>
-                    <title>Arquivo Sonoro EVO: página de música</title>
+                    <title>Arqueossítios: página de arqueossítio</title>
                     <meta charset="UTF-8"/>
                     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/> <!-- Para associar uma stylesheet, no caso a do w3.css -->
                 </head>

@@ -498,7 +498,7 @@ medieval </DESCRI>
 		<CRONO>Pré-História Recente / Proto-História / Idade Média</CRONO>
 		<LUGAR> Espeses </LUGAR>
 		<FREGUE> Guilmonde </FREGUE>
-		<CONCEL>Barcelos </CONCEL>
+		<CONCEL> Barcelos </CONCEL>
 		<CODADM>: 030237</CODADM>
 		<LATITU> 503,4 </LATITU>
 		<LONGIT>157,1 </LONGIT>
@@ -3668,7 +3668,7 @@ de Melgaço, 1985. </BIBLIO>
 		<LUGAR> Cainheiras </LUGAR>
 		<FREGUE>
 			<LIGA TERMO="castro"> castro</LIGA> Laboreiro </FREGUE>
-		<CONCEL>Melgaço</CONCEL>
+		<CONCEL> Melgaço </CONCEL>
 		<CODADM> 1603002</CODADM>
 		<LATITU> 501,8 </LATITU>
 		<LONGIT> 199,5 </LONGIT>
