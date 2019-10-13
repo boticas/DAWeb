@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/joseb/Desktop/Universidade/mestrado/daw/aula_2/pr_oficial.dtd">
+<pr>
+    <metadata>
+        <keyname>TP3-PG41081-JB</keyname>
+        <title>TP4 - Servidor JavaScript</title>
+        <subtitle>Trabalho nº4, inserido nos TPC da UC de Desenvolvimento de Aplicações Web 2019.</subtitle>
+        <supervisor homepage="https://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+        <bdate>08/10/2019</bdate>
+        <edate>15/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41081</identifier>
+            <name>José Boticas</name>
+            <email>pg41081@alunos.uminho.pt</email>
+            <git>https://github.com/SacitobJose</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho tem como objetivo consolidar os conteúdos lecionados na aula de 08/10/2019.
+        </p>
+        <p>
+            Para o TPC nº4, foi pedido que os alunos gerassem, com recurso a uma <i>stylesheet XSLT</i>, vários documentos XML, um por cada entrada (ARQELEMs) do documento XML sobre arqueossítios em Portugal, apresentado abaixo.
+        </p>
+        <p>
+            Para além disso, foi ainda pedido que criassem um servidor em <i>Node.js</i> que devolvesse as páginas XML criadas.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./arq.xml">Documento XML sobre arqueossítios</deliverable>
+        <deliverable path="./arqserver.xsl">Transformador do XML em vários</deliverable>
+        <deliverable path="./files/">Ficheiros correspondentes aos arqueossítios</deliverable>
+        <deliverable path="./server.js">Servidor JavaScript</deliverable>
+        <deliverable path="./pr.xml">XML escrito para este PR</deliverable>
+    </deliverables>
+</pr>
