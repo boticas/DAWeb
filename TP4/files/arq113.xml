@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Bravães </IDENTI>
-   <DESCRI> Igreja </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Bravães </LUGAR>
-   <FREGUE> Bravães </FREGUE>
-   <CONCEL> Ponte da Barca </CONCEL>
-   <CODADM> 160603 </CODADM>
-   <LATITU> 536,6 </LATITU>
-   <LONGIT> 173,4 </LONGIT>
-   <ALTITU> 50m </ALTITU>
-   <ACESSO>O acesso faz-se directamente a partir da estrada EN.203, que liga Ponte da
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Bravães </IDENTI>
+		<DESCRI> Igreja </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Bravães </LUGAR>
+		<FREGUE> Bravães </FREGUE>
+		<CONCEL> Ponte da Barca </CONCEL>
+		<CODADM> 160603 </CODADM>
+		<LATITU> 536,6 </LATITU>
+		<LONGIT> 173,4 </LONGIT>
+		<ALTITU> 50m </ALTITU>
+		<ACESSO>O acesso faz-se directamente a partir da estrada EN.203, que liga Ponte da
 Barca a Ponte de Lima. O templo fica à margem desta estrada, lado Norte,
 cerca de 3 km para Oeste da sede do concelho. O monumento está sinalizado.</ACESSO>
-   <DESARQ>A actual igreja paroquial de Bravães era o templo de um antigo mosteiro
+		<DESARQ>A actual igreja paroquial de Bravães era o templo de um antigo mosteiro
 <LIGA TERMO="beneditino"> beneditino</LIGA> que nos finais do século XII se
 instituiu como comenda dos Templários, passando o mosteiro também nessa
 altura para posse dos agostinhos. Segundo referenciam as "Inquirições" de
@@ -99,27 +100,27 @@ pelo "primitivismo" da arte, um encanto suplementar à obra. Assim, o portal
 ocidental da igreja de Bravães acaba por se afirmar como uma verdadeira
 "porta do céu", constituindo-se, de facto, como um testemunho da arte cristã
 românica de excepcional importância.</DESARQ>
-   <INTERE>Indiscutivelmente reconhecida como uma das obras-primas da arte românica
+		<INTERE>Indiscutivelmente reconhecida como uma das obras-primas da arte românica
 portuguesa, classificada como Monumento Nacional desde 1910 (Dec. de
 16-6-1910), a igreja de Bravães é um monumento bem conservado, de inegável
 significado histórico regional e excepcional valor científico e patrimonial,
 fundamental para a compreensão do povoamento medieval e da penetração e
 difusão do "<LIGA TERMO="românico"> românico</LIGA>" na região limiana.</INTERE>
-   <BIBLIO>ALMEIDA, C.A.F.(1977). - Arquitectura Românica de Entre Douro e Minho, Tese
+		<BIBLIO>ALMEIDA, C.A.F.(1977). - Arquitectura Românica de Entre Douro e Minho, Tese
 de Doutoramento (policopiada), Faculdade de Letras da Universidade do Porto,
 Porto, 1978. </BIBLIO>
-   <BIBLIO>ALMEIDA, C.A.F.(1986). - História da Arte em Portugal. 2: O românico.
+		<BIBLIO>ALMEIDA, C.A.F.(1986). - História da Arte em Portugal. 2: O românico.
 Lisboa, 1986, pp.104. </BIBLIO>
-   <BIBLIO>ALMEIDA, C.A.F.(1987). Alto Minho, (novos guias de Portugal, 5), Editorial
+		<BIBLIO>ALMEIDA, C.A.F.(1987). Alto Minho, (novos guias de Portugal, 5), Editorial
 Presença, Lisboa, 1987. </BIBLIO>
-   <BIBLIO>BARREROS, M.A.(1926). Egrejas e Capelas Romanicas da Ribeira Lima,
+		<BIBLIO>BARREROS, M.A.(1926). Egrejas e Capelas Romanicas da Ribeira Lima,
 Edições Marques Abreu, Porto, 1926. </BIBLIO>
-   <BIBLIO>BARROCA, M.J.(1987). Necrópoles e Sepulturas Medievais de
+		<BIBLIO>BARROCA, M.J.(1987). Necrópoles e Sepulturas Medievais de
 Entre-Douro-E-Minho (séculos v a XV), Provas de Aptidão Pedagógica e
 Capacidade Científica, (policopiado), Faculdade de Letras da Universidade do
 Porto, Porto,1987. </BIBLIO>
-   <BIBLIO>GRAF, G.N. e GUSMÃO N.(1988). Portugal Roman / 2, Ediciones Encuentro,
+		<BIBLIO>GRAF, G.N. e GUSMÃO N.(1988). Portugal Roman / 2, Ediciones Encuentro,
 Madrid, 1988. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

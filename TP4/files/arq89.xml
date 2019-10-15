@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Melgaço </IDENTI>
-   <DESCRI> Castelo; Igreja </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Melgaço </LUGAR>
-   <FREGUE> Melgaço </FREGUE>
-   <CONCEL> Melgaço </CONCEL>
-   <LATITU> 571,7 </LATITU>
-   <LONGIT> 189,5 </LONGIT>
-   <ALTITU> 200m </ALTITU>
-   <ACESSO>A vila de Melgaço é directamente servida pela EN.202. Os monumentos não
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Melgaço </IDENTI>
+		<DESCRI> Castelo; Igreja </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Melgaço </LUGAR>
+		<FREGUE> Melgaço </FREGUE>
+		<CONCEL> Melgaço </CONCEL>
+		<LATITU> 571,7 </LATITU>
+		<LONGIT> 189,5 </LONGIT>
+		<ALTITU> 200m </ALTITU>
+		<ACESSO>A vila de Melgaço é directamente servida pela EN.202. Os monumentos não
 estão sinalizados.</ACESSO>
-   <DESARQ>Implantada à margem do fronteiriço rio Minho, lá onde a raia seca começa
+		<DESARQ>Implantada à margem do fronteiriço rio Minho, lá onde a raia seca começa
 elevando-se em direcção às montanhas e planaltos de Castro Laboreiro, a vila
 de Melgaço desempenhou desde os primórdios da nacionalidade um importante
 papel ordenador do território, mantendo durante toda a Idade Média o relevo
@@ -61,7 +62,7 @@ penetrar na casa de Deus. O estado de conservação é bom. Ainda no interior
 da vila medieval (o actual centro histórico), merece referência a igreja da
 Misericórdia, em cujo adro fronteiro se conservam, em bom estado, dois <LIGA TERMO="sarcófago"> sarcófagos</LIGA> antropomórficos cobertos com tampas de
 "quatro águas", medievais.</DESARQ>
-   <INTERE>Trata-se de monumentos de inegável significado histórico regional e elevado
+		<INTERE>Trata-se de monumentos de inegável significado histórico regional e elevado
 valor científico e patrimonial, fundamentais para a compreensão do
 povoamento medieval e para o estudo da penetração e difusão das arquitectura
 e decoração românicas na região. Constituem já atracções turísticas.
@@ -69,28 +70,28 @@ O castelo está classificado como Monumento Nacional - Dec. de 16-6-1910. A
 muralha está classificada como Monumento Nacional - Dec. 11454 de 19-2-1926.
 Justificava-se bem propor a classificação da igreja matriz de Melgaço como
 Imóvel de Interesse Público. </INTERE>
-   <BIBLIO>ALMEIDA,C.A.F.(1968) Vias Medievais de Entre Douro e Minho, Dissertação de
+		<BIBLIO>ALMEIDA,C.A.F.(1968) Vias Medievais de Entre Douro e Minho, Dissertação de
 Licenciatura em História (policopiada), Faculdade de Letras da Universidade
 do Porto, Porto, 1968. </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F.(1978a) Arquitectura Românica de Entre Douro e
+		<BIBLIO> ALMEIDA, C.A.F.(1978a) Arquitectura Românica de Entre Douro e
 Minho, Tese de Doutoramento (policopiada), Faculdade de Letras da
 Universidade do Porto, Porto, 1978. </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F.(1978b) Castelologia Medieval de Entre Douro e
+		<BIBLIO> ALMEIDA, C.A.F.(1978b) Castelologia Medieval de Entre Douro e
 Minho, Prova Complementar da Tese de Doutoramento (policopiado), Faculdade
 de Letras da Universidade do Porto, Porto,1978. </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F.(1986) História da Arte em Portugal. 2:
+		<BIBLIO> ALMEIDA, C.A.F.(1986) História da Arte em Portugal. 2:
 românico, Lisboa, 1986, pp.104. </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F.(1987) Alto Minho, (novos guias de Portugal, 5),
+		<BIBLIO> ALMEIDA, C.A.F.(1987) Alto Minho, (novos guias de Portugal, 5),
 Editorial Presença, Lisboa, 1987. </BIBLIO>
-   <BIBLIO> GRAF, G.N. e GUSMÃO, A.N (1988) Portugal Roman / 2, Ediciones
+		<BIBLIO> GRAF, G.N. e GUSMÃO, A.N (1988) Portugal Roman / 2, Ediciones
 Encuentro, Madrid, 1988. </BIBLIO>
-   <BIBLIO> BARROCA, M.J. (1987) Necrópoles e Sepulturas Medievais de
+		<BIBLIO> BARROCA, M.J. (1987) Necrópoles e Sepulturas Medievais de
 Entre-Douro-E-Minho (séculos v a XV), Provas de Aptidão Pedagógica e
 Capacidade Científica, (policopiado), Faculdade de Letras da Universidade do
 Porto, Porto,1987. </BIBLIO>
-   <BIBLIO> SILVA, A.M.S.(1987) A Fortaleza de Melgaço: Pedras e Património
+		<BIBLIO> SILVA, A.M.S.(1987) A Fortaleza de Melgaço: Pedras e Património
 (separata dos "Cadernos da Câmara Municipal de Melgaço, 3), Câmara Municipal
 de Melgaço, 1987. </BIBLIO>
-   <AUTOR> Luís Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luís Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

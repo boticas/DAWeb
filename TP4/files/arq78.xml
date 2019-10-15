@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI>Castelo de Castro Laboreiro </IDENTI>
-   <DESCRI/>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Castro Laboreiro </LUGAR>
-   <FREGUE> Castro Laboreiro </FREGUE>
-   <CONCEL> Melgaço </CONCEL>
-   <CODADM> 160302 </CODADM>
-   <LATITU> 562,6 </LATITU>
-   <LONGIT> 198,1 </LONGIT>
-   <ALTITU>1000m </ALTITU>
-   <ACESSO>O acesso ao castelo faz-se a pé (cerca de 15 minutos), por caminho
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI>Castelo de Castro Laboreiro </IDENTI>
+		<DESCRI/>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Castro Laboreiro </LUGAR>
+		<FREGUE> Castro Laboreiro </FREGUE>
+		<CONCEL> Melgaço </CONCEL>
+		<CODADM> 160302 </CODADM>
+		<LATITU> 562,6 </LATITU>
+		<LONGIT> 198,1 </LONGIT>
+		<ALTITU>1000m </ALTITU>
+		<ACESSO>O acesso ao castelo faz-se a pé (cerca de 15 minutos), por caminho
 carreteiro que leva directamente da vila ao alto do monte onde se implanta o
 castelo. A
 Castro Laboreiro chega-se pela estrada EN.202 e 202-3. O monumento está mal
 sinalizado.</ACESSO>
-   <DESARQ>
+		<DESARQ>
 Castro Laboreiro foi, desde os séculos centrais da Idade Média, sede de
 concelho, recebendo em 1513 foral novo dado pelo rei Manuel I. Região
 periférica e fronteiriça, ainda hoje conserva, apresentando embora um quadro
@@ -58,23 +59,23 @@ nascente e Sul. A igreja desenhada por Duarte Darmas também já não é a
 mesma. A actual igreja paroquial é reconstrução de época moderna,
 conservando apenas dos tempos medievais uma interessante pia baptismal com
 decoração insculturada de tradição românica.</DESARQ>
-   <INTERE>Trata-se de um monumento-sítio de inegável significado histórico regional e
+		<INTERE>Trata-se de um monumento-sítio de inegável significado histórico regional e
 bastante valor científico e patrimonial, fundamental para a compreensão do
 povoamento medieval na região. O castelo está classificado como Monumento
 Nacional - Dec. de 16-6-1910.</INTERE>
-   <BIBLIO>JOÃO DE ALMEIDA, J.de.(notas de)(1943) O Livro das Fortalezas de Duarte
+		<BIBLIO>JOÃO DE ALMEIDA, J.de.(notas de)(1943) O Livro das Fortalezas de Duarte
 Darmas. Lisboa </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F. (1978) Arquitectura Românica de Entre Douro e
+		<BIBLIO> ALMEIDA, C.A.F. (1978) Arquitectura Românica de Entre Douro e
 Minho, Tese de Doutoramento (policopiada), Faculdade de Letras da
 Universidade do Porto, Porto, 1978. </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F. (1978b) Castelologia Medieval de Entre Douro e
+		<BIBLIO> ALMEIDA, C.A.F. (1978b) Castelologia Medieval de Entre Douro e
 Minho, Prova Complementar da Tese de Doutoramento (policopiado), Faculdade
 de Letras da Universidade do Porto, Porto,1978. </BIBLIO>
-   <BIBLIO> ALMEIDA, C.A.F. (1987) Alto Minho, (novos guias de Portugal, 5),
+		<BIBLIO> ALMEIDA, C.A.F. (1987) Alto Minho, (novos guias de Portugal, 5),
 Editorial Presença, Lisboa, 1987. </BIBLIO>
-   <BIBLIO> RODRIGUES, A.R. (1985) Pontes Romanas e Românicas de Castro
+		<BIBLIO> RODRIGUES, A.R. (1985) Pontes Romanas e Românicas de Castro
 Laboreiro (separata dos "Cadernos da Câmara Municipal de Melgaço, 2), Câmara
 Municipal de Melgaço, 1985. </BIBLIO>
-   <AUTOR> Luís Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luís Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

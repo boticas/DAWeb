@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Necrópole Megalítica do Maciço do Borrelho </IDENTI>
-   <DESCRI> Necrópole megalítica </DESCRI>
-   <CRONO> Pré-História</CRONO>
-   <LUGAR/>
-   <FREGUE> Codeceda; Dossãos; Duas Igrejas; Godinhaços; Gondiães; Mós;
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Necrópole Megalítica do Maciço do Borrelho </IDENTI>
+		<DESCRI> Necrópole megalítica </DESCRI>
+		<CRONO> Pré-História</CRONO>
+		<LUGAR/>
+		<FREGUE> Codeceda; Dossãos; Duas Igrejas; Godinhaços; Gondiães; Mós;
 Pedregais; Picos de Regalados; Portela das Cabras. </FREGUE>
-   <CONCEL> Vila Verde </CONCEL>
-   <CODADM> 031338 </CODADM>
-   <ALTITU> 496m </ALTITU>
-   <ACESSO> O acesso faz-se a partir da sede do concelho. </ACESSO>
-   <QUADRO>O maciço do Borrelho compreende a área situada entre os montes do Moínho
+		<CONCEL> Vila Verde </CONCEL>
+		<CODADM> 031338 </CODADM>
+		<ALTITU> 496m </ALTITU>
+		<ACESSO> O acesso faz-se a partir da sede do concelho. </ACESSO>
+		<QUADRO>O maciço do Borrelho compreende a área situada entre os montes do Moínho
 Velho e o de S. Miguel-o-Anjo.
 Seguindo um critério hidrográfico podemos delimitar o maciço, a Norte e
 Oeste, pelo rio Neiva, a Sul, pela ribeira do Rojão a Este, pelas ribeiras
@@ -25,9 +26,9 @@ ocupação.
 A paisagem actual é essencialmente aberta predominando uma vegetação
 arbustiva e herbácea, com resquícios arbóreos de pereira selvagem e algumas
 manchas de pinheiros e eucaliptos de introdução recente. </QUADRO>
-   <TRAARQ>Prospecção da necrópole e escavação da <LIGA TERMO="mamoa"> Mamoa</LIGA>
+		<TRAARQ>Prospecção da necrópole e escavação da <LIGA TERMO="mamoa"> Mamoa</LIGA>
 nº10 do Chão da Cheira. </TRAARQ>
-   <DESARQ>O arqueossítio do maciço do Barrelho compreende 36 monumentos com tumulus,
+		<DESARQ>O arqueossítio do maciço do Barrelho compreende 36 monumentos com tumulus,
 distribuídos na paisagem de forma isolada ou em núcleos.
 Reconhecemos um núcleo de 20 <LIGA TERMO="mamoa"> mamoas</LIGA> no Chão da
 Cheira; um núcleo de 10 no Lameiro da Vaca; 1 núcleo de 2 no Moinho Velho e
@@ -58,12 +59,12 @@ O planalto do Borrelho, onde os monumentos assinalariam um território
 sagrado, frequentemente reutilizado, contituiriam, também, um espaço dos
 vivos, construído e transformado física e simbolicamente pelas comunidades
 que aí materializariam um dos seus rituais de passagem - a morte. </DESARQ>
-   <INTERP> Necrópole megalítica datada entre o V e o II milénio a.
+		<INTERP> Necrópole megalítica datada entre o V e o II milénio a.
 C..</INTERP>
-   <BIBLIO>REGALO, H (1986). Levantamento Arqueológico do Concelho de Vila Verde -
+		<BIBLIO>REGALO, H (1986). Levantamento Arqueológico do Concelho de Vila Verde -
 Notícia Preliminar, Mínia, Braga, 8, pp. 70-110. </BIBLIO>
-   <BIBLIO> BETTENCOURT, A.(1991/1992). A mamoa nº10 do Chão da Cheira (Maciço
+		<BIBLIO> BETTENCOURT, A.(1991/1992). A mamoa nº10 do Chão da Cheira (Maciço
 do Borrelho - Vila Verde), Cadernos de Arqueologia, Braga, 8/9, pp.43-65.</BIBLIO>
-   <AUTOR>Ana M. S. Bettencourt </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR>Ana M. S. Bettencourt </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

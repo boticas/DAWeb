@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Bouro </IDENTI>
-   <DESCRI> Castelo </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Piorneiro </LUGAR>
-   <FREGUE> Monte (Santa Isabel) </FREGUE>
-   <CONCEL> Terras de Bouro </CONCEL>
-   <LATITU> 527,7 </LATITU>
-   <LONGIT> 191,4 </LONGIT>
-   <ALTITU> 992m </ALTITU>
-   <ACESSO>No cume do Piorneiro ou de Crasto, cerca de 1 km para Norte da aldeia de
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Bouro </IDENTI>
+		<DESCRI> Castelo </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Piorneiro </LUGAR>
+		<FREGUE> Monte (Santa Isabel) </FREGUE>
+		<CONCEL> Terras de Bouro </CONCEL>
+		<LATITU> 527,7 </LATITU>
+		<LONGIT> 191,4 </LONGIT>
+		<ALTITU> 992m </ALTITU>
+		<ACESSO>No cume do Piorneiro ou de Crasto, cerca de 1 km para Norte da aldeia de
 Seara. O acesso ao sítio do castelo é difícil e faz-se a pé (cerca de 30
 minutos), por caminho carreteiro e de pé posto que parte da aldeia de Seara
 para Norte em direcção à elevação de Crasto ou de Piorneiro. À aldeia de
@@ -18,7 +19,7 @@ Seara chega-se por estradão municipal parcialmente alcatroado, a partir das
 aldeias de Rebordochão e Campos Abades, estas servidas pela estrada
 municipal que liga à sede do concelho de Terras de Bouro. O monumento não
 está sinalizado.</ACESSO>
-   <DESARQ>Amplamente referenciado nas Inquirições de 1220 e de 1258, em relação ao
+		<DESARQ>Amplamente referenciado nas Inquirições de 1220 e de 1258, em relação ao
 qual praticamente todas as freguesias das cercanias tinham pesadas
 obrigações e encargos, o castelo de Bouro foi durante toda a Idade Média um
 ponto estratégico de defesa do acesso ao vale alto do rio Homem. Com a
@@ -45,16 +46,16 @@ desenvolvimentos modernos da arte da guerra, nomeadamente a difusão do uso
 da artilharia a partir do século XVI, o castelo de Bouro deixou de ter
 qualquer importância militar, devendo datar desse período o seu abandono. Do
 ponto de vista arqueológico o monumento está mal conservado.</DESARQ>
-   <INTERP>Castelo medieval.</INTERP>
-   <INTERE>Apesar do inegável significado histórico regional e mesmo nacional do
+		<INTERP>Castelo medieval.</INTERP>
+		<INTERE>Apesar do inegável significado histórico regional e mesmo nacional do
 castelo de Bouro, do monumento praticamente nada resta e o sítio, embora
 beneficie de um excelente enquadramento paisagístico, oferece vestígios
 muito escassos, de difícil percepção.</INTERE>
-   <BIBLIO>ALMEIDA, C.A.F.(1978b). Castelologia Medieval de Entre Douro e Minho, Prova
+		<BIBLIO>ALMEIDA, C.A.F.(1978b). Castelologia Medieval de Entre Douro e Minho, Prova
 Complementar da Tese de Doutoramento (policopiado), Faculdade de Letras da
 Universidade do Porto, Porto,1978. </BIBLIO>
-   <BIBLIO>CUNHA, A.R.(1975). "Trepando aos montes", O Distrito de Braga , 2ª série, I,
+		<BIBLIO>CUNHA, A.R.(1975). "Trepando aos montes", O Distrito de Braga , 2ª série, I,
 Braga, 1975, pp.513-514. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

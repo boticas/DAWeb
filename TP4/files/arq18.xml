@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Monte da Senhora do Pilar; Castro de Lanhoso </IDENTI>
-   <DESCRI> Povoado da <LIGA TERMO="pré-história recente"> pré-história
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Monte da Senhora do Pilar; Castro de Lanhoso </IDENTI>
+		<DESCRI> Povoado da <LIGA TERMO="pré-história recente"> pré-história
 recente</LIGA>; <LIGA TERMO="povoado fortificado"> povoado
 fortificado</LIGA>
 		</DESCRI>
-   <CRONO>Pre-História Recente / Proto-História / Romanização </CRONO>
-   <LUGAR> Monte do Castelo </LUGAR>
-   <FREGUE> Póvoa de Lanhoso </FREGUE>
-   <CONCEL> Póvoa de Lanhoso </CONCEL>
-   <CODADM> 030919 </CODADM>
-   <LATITU> 512,8 </LATITU>
-   <LONGIT> 187,6 </LONGIT>
-   <ACESSO>O acesso faz-se por estrada alcatroada, a partir da estrada Braga/Póvoa de
+		<CRONO>Pre-História Recente / Proto-História / Romanização </CRONO>
+		<LUGAR> Monte do Castelo </LUGAR>
+		<FREGUE> Póvoa de Lanhoso </FREGUE>
+		<CONCEL> Póvoa de Lanhoso </CONCEL>
+		<CODADM> 030919 </CODADM>
+		<LATITU> 512,8 </LATITU>
+		<LONGIT> 187,6 </LONGIT>
+		<ACESSO>O acesso faz-se por estrada alcatroada, a partir da estrada Braga/Póvoa de
 Lanhoso. </ACESSO>
-   <QUADRO>O Monte do Castelo corresponde a um esporão, de altitude média, do maciço
+		<QUADRO>O Monte do Castelo corresponde a um esporão, de altitude média, do maciço
 montanhoso conhecido por Lage Grande, que divide as bacias do Cávado e do
 Ave. O povoado encontra-se virado a um pequeno vale fértil e bem irrigado,
 no qual confluem as ribeiras da Póvoa, Pereira e Pregal, pertencentes à
 bacia hidrográfica do Ave. A parte mais alta do monte é constituída por um
 imponente afloramento rochoso.</QUADRO>
-   <TRAARQ>O povoado foi objecto de trabalhos arqueológicos esporádicos ao longo do
+		<TRAARQ>O povoado foi objecto de trabalhos arqueológicos esporádicos ao longo do
 séc. XX, designadamente, nos anos 30, por C. Teixeira e, em 1982, por K.
 Petruso, da Universidade de Boston.</TRAARQ>
-   <DESARQ>Os vestígios melhor conservados do povoado concentram-se na vertente este do
+		<DESARQ>Os vestígios melhor conservados do povoado concentram-se na vertente este do
 monte, virada ao vale do Ave, distribuindo-se pelos terrenos contíguos à
 estrada que dá acesso ao castelo medieval, existente no alto do monte. As
 estruturas dispõem-se em pequenos socalcos e foram escavadas por Carlos
@@ -51,28 +52,28 @@ recolhidos, nomeadamente os dois <LIGA TERMO="torques"> torques</LIGA>, o
 capacete de bronze e dois br+aceletes de ouro, em depósito no Museu D. Diogo
 de Sousa, em Braga.
 Na plataforma superior ergue-se um castelo de origem medieval. </DESARQ>
-   <INTERP>Povoado com ocupação do Calcolítico, da Idade do Bronze, da Idade do
+		<INTERP>Povoado com ocupação do Calcolítico, da Idade do Bronze, da Idade do
 Ferro, romanizado e com ocupação da Idade Média. </INTERP>
-   <DEPOSI>Casa da Botica, Póvoa do Lanhoso; Museu D. Diogo de Sousa.</DEPOSI>
-   <BIBLIO> CARDOSO, M. e GARCIA e BELLIDO (1946). El casco de Lanhoso, Arquivo
+		<DEPOSI>Casa da Botica, Póvoa do Lanhoso; Museu D. Diogo de Sousa.</DEPOSI>
+		<BIBLIO> CARDOSO, M. e GARCIA e BELLIDO (1946). El casco de Lanhoso, Arquivo
 Español de Arqueologia, Madrid , 19 (65), pp.356-358. </BIBLIO>
-   <BIBLIO> TEIXEIRA, C. (1939). Os torques do Castro de Lanhoso, Póvoa de
+		<BIBLIO> TEIXEIRA, C. (1939). Os torques do Castro de Lanhoso, Póvoa de
 Lanhoso, Anais da Faculdade de Ciências do Porto , 24 (4), pp.245-252.</BIBLIO>
-   <BIBLIO> TEIXEIRA, C. (1940a), O Castro de Lanhoso e seu espólio, Iº
+		<BIBLIO> TEIXEIRA, C. (1940a), O Castro de Lanhoso e seu espólio, Iº
 Congresso do Mundo Português , 1, Lisboa, pp. 517 e segs.. </BIBLIO>
-   <BIBLIO> TEIXEIRA, C. (1940b), Notas arqueológicas sobre o Castro de
+		<BIBLIO> TEIXEIRA, C. (1940b), Notas arqueológicas sobre o Castro de
 Lanhoso, Trabalhos da Sociedade Portuguesa de Antropologia e Etnologia, 9
 (1-2), pp. 245 e segs. </BIBLIO>
-   <BIBLIO> TEIXEIRA , C. (1941), Hallazgo arqueologico notable (un casco
+		<BIBLIO> TEIXEIRA , C. (1941), Hallazgo arqueologico notable (un casco
 céltico de Portugal), Ampurias, 3, Barcelona, pp.138 e segs. </BIBLIO>
-   <BIBLIO> PETRUSO, K. M. (1982), Castro de Lanhoso, Portugal: results of the
+		<BIBLIO> PETRUSO, K. M. (1982), Castro de Lanhoso, Portugal: results of the
 first season, Context, 2 (3), Ed. Boston University, pp.1 e 4-6. </BIBLIO>
-   <BIBLIO> MARTINS, M. (1990). O Povoamento Proto-Histórico e a Romanização da
+		<BIBLIO> MARTINS, M. (1990). O Povoamento Proto-Histórico e a Romanização da
 Bacia do Curso Médio do Cávado, Cadernos de Arqueologia - Monografias, 5,
 Universidade do Minho, Braga, pp.68. </BIBLIO>
-   <BIBLIO> BETTENCOURT, A. M. S. (1993/94), A ocupação da Idade do Bronze do
+		<BIBLIO> BETTENCOURT, A. M. S. (1993/94), A ocupação da Idade do Bronze do
 Castro de Lanhoso, Póvoa de Lanhoso, Cadernos de Arqueologia, nº10/11,
 Braga, pp. 153-180. </BIBLIO>
-   <AUTOR> Manuela Martins </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Manuela Martins </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

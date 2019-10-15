@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Ponte da Vila </IDENTI>
-   <DESCRI>Ponte</DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Ponte da Barca </LUGAR>
-   <FREGUE> Ponte da Barca </FREGUE>
-   <CONCEL> Ponte da Barca </CONCEL>
-   <CODADM> 160616 </CODADM>
-   <LATITU> 537,4 </LATITU>
-   <LONGIT> 176,2 </LONGIT>
-   <ALTITU> 36m </ALTITU>
-   <ACESSO>A vila de Ponte da Barca é directamente servida pelas EN.101 e 203. O
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Ponte da Vila </IDENTI>
+		<DESCRI>Ponte</DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Ponte da Barca </LUGAR>
+		<FREGUE> Ponte da Barca </FREGUE>
+		<CONCEL> Ponte da Barca </CONCEL>
+		<CODADM> 160616 </CODADM>
+		<LATITU> 537,4 </LATITU>
+		<LONGIT> 176,2 </LONGIT>
+		<ALTITU> 36m </ALTITU>
+		<ACESSO>A vila de Ponte da Barca é directamente servida pelas EN.101 e 203. O
 monumento não está sinalizado</ACESSO>
-   <DESARQ>A vila de Ponte da Barca, até ao século XV um simples lugar da freguesia de
+		<DESARQ>A vila de Ponte da Barca, até ao século XV um simples lugar da freguesia de
 Paço Vedro de Magalhães, desenvolveu-se e ganhou importância viária,
 comercial e administrativa exactamente neste século. No primeiro quartel do
 século XVI, com 100 fogos, era já a sede do Julgado da Barca, substituindo
@@ -34,14 +35,14 @@ verdadeira obra de arte de engenharia releva ainda o excelente <LIGA TERMO="apar
 do intradorso dos arcos, onde se identificam inúmeras grandes siglas de
 <LIGA TERMO="canteiro"> canteiro</LIGA> do tipo alfabetiforme. O monumento e
 a envolvência paisagística apresentam-se bem conservadas.</DESARQ>
-   <INTERE>Para além do inegável valor patrimonial do monumento, a ponte sobre o rio
+		<INTERE>Para além do inegável valor patrimonial do monumento, a ponte sobre o rio
 Lima em Ponte da Barca, classificado como Monumento Nacional (Dec. de
 16-6-1910), detem um inegável significado histórico-cultural regional.</INTERE>
-   <BIBLIO>ALMEIDA, C.A.F.(1968). Vias Medievais de Entre Douro e Minho, Dissertação de
+		<BIBLIO>ALMEIDA, C.A.F.(1968). Vias Medievais de Entre Douro e Minho, Dissertação de
 Licenciatura em História (policopiada), Faculdade de Letras da Universidade
 do Porto, Porto, 1968. </BIBLIO>
-   <BIBLIO>ALMEIDA, C.A.F.(1987). Alto Minho, (novos guias de Portugal, 5), Editorial
+		<BIBLIO>ALMEIDA, C.A.F.(1987). Alto Minho, (novos guias de Portugal, 5), Editorial
 Presença, Lisboa, 1987. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

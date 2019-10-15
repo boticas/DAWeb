@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Lindoso </IDENTI>
-   <DESCRI> Igreja </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Lindoso </LUGAR>
-   <FREGUE> Lindoso </FREGUE>
-   <CONCEL> Ponte da Barca </CONCEL>
-   <CODADM> 160612 </CODADM>
-   <LATITU> 544,3 </LATITU>
-   <LONGIT> 194,3 </LONGIT>
-   <ALTITU> 452m </ALTITU>
-   <ACESSO>O acesso faz-se pelo caminho municipal que liga a aldeia à estrada nacional
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Lindoso </IDENTI>
+		<DESCRI> Igreja </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Lindoso </LUGAR>
+		<FREGUE> Lindoso </FREGUE>
+		<CONCEL> Ponte da Barca </CONCEL>
+		<CODADM> 160612 </CODADM>
+		<LATITU> 544,3 </LATITU>
+		<LONGIT> 194,3 </LONGIT>
+		<ALTITU> 452m </ALTITU>
+		<ACESSO>O acesso faz-se pelo caminho municipal que liga a aldeia à estrada nacional
 EN.304-1 (ligação Ponte da Barca à fronteira da Madalena - troço do futuro
 IC.28). O monumento não está sinalizado.</ACESSO>
-   <DESARQ>Durante as obras de restauro da igreja paroquial realizadas na década de 50
+		<DESARQ>Durante as obras de restauro da igreja paroquial realizadas na década de 50
 foram encontradas, no subsolo da zona do adro contígua à parede setentrional
 da <LIGA TERMO="nave"> nave</LIGA>, várias peças líticas correspondentes a
 tumulações. Pela sua feição arcaica, mereceram a atenção do P.e José
@@ -60,7 +61,7 @@ perceber uma certa influência galega, patente sobretudo na tampa "em estola"
 técnico-estilísticas das restantes peças, em que sobressai a simplicidade
 decorativa e a incipiência dos desenhos, sugerem uma produção
 local.</DESARQ>
-   <INTERE>Este conjunto escultórico tumular tem grande valor e significado
+		<INTERE>Este conjunto escultórico tumular tem grande valor e significado
 arqueológicos, constituindo um importante contributo para a compreensão das
 modalidades de enterramento medieval na região. Deve por isso ser objecto de
 protecção. Contudo, tal como outros elementos escultóricos em granito
@@ -68,12 +69,12 @@ expostos ao ar livre (actualmente encontram-se expostas no adro, alinhadas
 junto à parede Norte da <LIGA TERMO="nave"> nave</LIGA>), estas peças estão
 sujeitas a acentuada erosão das superfícies devido à sua fraca resistência
 às condições ambientais (chuva, frio, musgos e líquenes).</INTERE>
-   <BIBLIO>BARROCA, M.J.(1987). Necrópoles e Sepulturas Medievais de
+		<BIBLIO>BARROCA, M.J.(1987). Necrópoles e Sepulturas Medievais de
 Entre-Douro-E-Minho (séculos v a XV), Provas de Aptidão Pedagógica e
 Capacidade Científica, (policopiado), Faculdade de Letras da Universidade do
 Porto, Porto,1987, (para as peças 3 e 5 ). </BIBLIO>
-   <BIBLIO>FONTES, F.(1996). O Território de Lindoso. Paisagem e Arqueologia (tese de
+		<BIBLIO>FONTES, F.(1996). O Território de Lindoso. Paisagem e Arqueologia (tese de
 mestrado, em conclusão), Universidade do Minho, Braga, 1996. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Ribeira da Pala; Dornelas; Paredes Secas </IDENTI>
-   <DESCRI>
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Ribeira da Pala; Dornelas; Paredes Secas </IDENTI>
+		<DESCRI>
 			   <LIGA TERMO="miliário"> Miliário</LIGA>
 		</DESCRI>
-   <CRONO> Romanização </CRONO>
-   <LUGAR> Na margem direita da Ribeira da Pala </LUGAR>
-   <FREGUE> Paredes Secas </FREGUE>
-   <CONCEL> Amares </CONCEL>
-   <CODADM> 030115 </CODADM>
-   <LATITU> 520,9 </LATITU>
-   <LONGIT> 183,6 </LONGIT>
-   <ALTITU> 260m </ALTITU>
-   <ACESSO> O miliário encontra-se no adro da igreja paroquial de Paredes
+		<CRONO> Romanização </CRONO>
+		<LUGAR> Na margem direita da Ribeira da Pala </LUGAR>
+		<FREGUE> Paredes Secas </FREGUE>
+		<CONCEL> Amares </CONCEL>
+		<CODADM> 030115 </CODADM>
+		<LATITU> 520,9 </LATITU>
+		<LONGIT> 183,6 </LONGIT>
+		<ALTITU> 260m </ALTITU>
+		<ACESSO> O miliário encontra-se no adro da igreja paroquial de Paredes
 Secas. </ACESSO>
-   <QUADRO>O miliário foi encontrado, em 1957, na margem direita da Ribeira da Pala, em
+		<QUADRO>O miliário foi encontrado, em 1957, na margem direita da Ribeira da Pala, em
 Dornelas, não muito longe do local onde tradicionalmente se admite a
 passagem da Via Nova. </QUADRO>
-   <DESARQ> O miliário está fracturado e apresenta a inscrição muito gasta. A
+		<DESARQ> O miliário está fracturado e apresenta a inscrição muito gasta. A
 sua leitura é difícil, devido, também, à qualidade do granito, que apresenta
 muitos cristais de quartzo, que dificultaram a gravação. Altura: 159;
 diâmetro: 66; Letras: 7 e 8.
@@ -38,13 +39,13 @@ César, Germânico Máximo, Dácico Máximo, Sarmântico Máximo, Príncipe da
 juventude, filho do nosso senhor Imperador Gaio Júlio Vero Máximo, Pio,
 Feliz, Augusto. Sendo encarregado Quinto Décio Valeriano, legado de Augusto,
 propretor. De Braga são doze milhas. </DESARQ>
-   <INTERP> Miliário pertencente à Via Nova (Geira), datado de
+		<INTERP> Miliário pertencente à Via Nova (Geira), datado de
 236-238.</INTERP>
-   <BIBLIO> CUNHA, A. R. (1961). Um miliário inédito, O Distrito de Braga, 1
+		<BIBLIO> CUNHA, A. R. (1961). Um miliário inédito, O Distrito de Braga, 1
 (3-4), Braga, pp.319-334. </BIBLIO>
-   <BIBLIO> MARTINS, M. (1990) O Povoamento Proto-Histórico e a Romanização da
+		<BIBLIO> MARTINS, M. (1990) O Povoamento Proto-Histórico e a Romanização da
 Bacia do Curso do Médio Cávado, Cadernos de Arqueologia - Monografias, 5,
 Universidade do Minho, Braga, pp. 68-69. </BIBLIO>
-   <AUTOR>Manuela Martins</AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR>Manuela Martins</AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

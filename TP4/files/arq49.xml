@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Santo Ovídio </IDENTI>
-   <DESCRI> Povoado fortificado</DESCRI>
-   <CRONO> Proto-História</CRONO>
-   <LUGAR> Santo Ovídio </LUGAR>
-   <FREGUE> Fafe </FREGUE>
-   <CONCEL> Fafe </CONCEL>
-   <CODADM> 030709 </CODADM>
-   <LATITU> 498,3 </LATITU>
-   <LONGIT> 195,5 </LONGIT>
-   <ALTITU> 332m </ALTITU>
-   <ACESSO>Faz-se a partir do lugar de Santo Ovídio, situado pouco depois do Km 51,5 da
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Santo Ovídio </IDENTI>
+		<DESCRI> Povoado fortificado</DESCRI>
+		<CRONO> Proto-História</CRONO>
+		<LUGAR> Santo Ovídio </LUGAR>
+		<FREGUE> Fafe </FREGUE>
+		<CONCEL> Fafe </CONCEL>
+		<CODADM> 030709 </CODADM>
+		<LATITU> 498,3 </LATITU>
+		<LONGIT> 195,5 </LONGIT>
+		<ALTITU> 332m </ALTITU>
+		<ACESSO>Faz-se a partir do lugar de Santo Ovídio, situado pouco depois do Km 51,5 da
 E.N. Guimarães/Fafe. </ACESSO>
-   <QUADRO>Integrado na bacia hidrográfica do rio Vizela, afluente do Ave, o povoado
+		<QUADRO>Integrado na bacia hidrográfica do rio Vizela, afluente do Ave, o povoado
 assenta num cabeço de forma cónica, que se destaca bem na topografia da
 região. O monte oferece vertentes abruptas, nas quais se distinguem pequenas
 plataformas artificiais, onde se reconhecem vestígios de estruturas muito
@@ -22,12 +23,12 @@ Possuindo uma altitude pouco significativa em termos do relevo regional, o
 monte situa-se na proximidade de larga e fértil bacia do Vizela, com solos
 de excelente aptidão agrícola, favorável a culturas arvenses, quer de
 sequeiro, quer de regadio. </QUADRO>
-   <TRAARQ>Entre 1980 e 1984 foram realizadas amplas escavações neste povoado,
+		<TRAARQ>Entre 1980 e 1984 foram realizadas amplas escavações neste povoado,
 sobretudo na base da vertente leste do monte. Estes trabalhos, da
 responsabilidade de Manuela Martins (U.A.U.M.), foram integralmente
 subsidiados pelo município de Fafe. Os resultados foram publicados de forma
 monográfica (Martins, 1991).</TRAARQ>
-   <DESARQ>Embora conhecido desde os finais do séc. XIX, devido à descoberta de uma
+		<DESARQ>Embora conhecido desde os finais do séc. XIX, devido à descoberta de uma
 estátua de <LIGA TERMO="guerreiro galaico"> guerreiro galaico</LIGA>
 (SARMENTO, 1879; 1933; VASCONCELOS 1896, 24-32), depositado no Museu da
 Sociedade do Museu Martins Sarmento, em Guimarães, desde 1876, este povoado
@@ -76,20 +77,20 @@ Salienta-se, em contrapartida, por a presença de várias objectos de
 inspiração e fabrico romano, como <LIGA TERMO="fíbula"> fíbulas</LIGA> e
 alfinetes de cabelo, que testemunham intensos contactos comerciais no
 período de Augusto. </DESARQ>
-   <INTERP> Povoado fortificado proto-histórico.</INTERP>
-   <DEPOSI> Museu D. Diogo de Sousa. </DEPOSI>
-   <BIBLIO> OLIVEIRA, A. L. (s/d). Fafe e o seu concelho. Fafe. </BIBLIO>
-   <BIBLIO> VASCONCELOS, J. L. (1986). Estátuas de guerreiros lusitanos,
+		<INTERP> Povoado fortificado proto-histórico.</INTERP>
+		<DEPOSI> Museu D. Diogo de Sousa. </DEPOSI>
+		<BIBLIO> OLIVEIRA, A. L. (s/d). Fafe e o seu concelho. Fafe. </BIBLIO>
+		<BIBLIO> VASCONCELOS, J. L. (1986). Estátuas de guerreiros lusitanos,
 Arqueólogo Português, 2, Lisboa, pp. 29-32. </BIBLIO>
-   <BIBLIO> SARMENTO, M. (1887). A propósito das estátuas galaicas, Revista
+		<BIBLIO> SARMENTO, M. (1887). A propósito das estátuas galaicas, Revista
 Académica, Iº ano, nº3, Porto, pp. 19-21( Dispersos, Coimbra, 1933, pp.
 36-40). </BIBLIO>
-   <BIBLIO> CARDOSO, M. (1972). Catálogo do Museu Martins Sarmento, Secção de
+		<BIBLIO> CARDOSO, M. (1972). Catálogo do Museu Martins Sarmento, Secção de
 Epigrafia Latina e de Escultura Antiga, Guimarães. </BIBLIO>
-   <BIBLIO> MARTINS, M. (1987). O povoado fortificado de Santo Ovídio (Fafe).
+		<BIBLIO> MARTINS, M. (1987). O povoado fortificado de Santo Ovídio (Fafe).
 Resultados preliminares, Cadernos de arqueologia, 1, Braga. </BIBLIO>
-   <BIBLIO> MARTINS, M. (1991). O povoado de Santo Ovídio (Fafe), Cadernos de
+		<BIBLIO> MARTINS, M. (1991). O povoado de Santo Ovídio (Fafe), Cadernos de
 Arqueologia, Monografias, 6 Braga. </BIBLIO>
-   <AUTOR> Manuela Martins </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Manuela Martins </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

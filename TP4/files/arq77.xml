@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Santa Cruz ou dos Arcos </IDENTI>
-   <DESCRI> Castelo </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Santa Cruz </LUGAR>
-   <FREGUE> Vila Fonche </FREGUE>
-   <CONCEL> Arcos de Valdevez </CONCEL>
-   <CODADM> 160150 </CODADM>
-   <LATITU> 542,2 </LATITU>
-   <LONGIT> 175,2 </LONGIT>
-   <ALTITU> 125m </ALTITU>
-   <ACESSO>Nas proximidades do santuário de Nossa Senhora do Castelo, no topo da
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Santa Cruz ou dos Arcos </IDENTI>
+		<DESCRI> Castelo </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Santa Cruz </LUGAR>
+		<FREGUE> Vila Fonche </FREGUE>
+		<CONCEL> Arcos de Valdevez </CONCEL>
+		<CODADM> 160150 </CODADM>
+		<LATITU> 542,2 </LATITU>
+		<LONGIT> 175,2 </LONGIT>
+		<ALTITU> 125m </ALTITU>
+		<ACESSO>Nas proximidades do santuário de Nossa Senhora do Castelo, no topo da
 encosta sobranceira à aldeia de Vila Fonche. O acesso faz-se a pé (menos de
 10 minutos), por caminho carreteiro, a partir do logradouro da capela de
 Nossa Senhora do Castelo. Aqui chega-se pela estrada municipal EM. - , a
 partir da estrada nacional EN.303 (ligação Arcos de Valdevez - Paredes de
 Coura). O monumento está deficientemente sinalizado.</ACESSO>
-   <DESARQ>O actual concelho dos Arcos de Valdevez continua, com ligeiras variações, a
+		<DESARQ>O actual concelho dos Arcos de Valdevez continua, com ligeiras variações, a
 circunscrição territorial-administrativa do Julgado de Val de Vez, como é
 designada nas "Inquirições" de 1258, fixando uma realidade territorial cuja
 organização podemos seguramente recuar até meados do século XI, como
@@ -44,13 +45,13 @@ identificam os rasgos correspondentes ao alicerçamento. Pelas
 características construtivas e planimétricas trata-se de uma fortificação
 que cumpre os padõres da arquitectura militar medieval de tipologia
 românica. O sítio arqueológico está mal conservado.</DESARQ>
-   <INTERE>Apesar do mau estado de conservação e correspondente pouco valor
+		<INTERE>Apesar do mau estado de conservação e correspondente pouco valor
 patrimonial, o castelo de Santa Cruz ou dos Arcos possui grande significado
 histórico regional e reveste bastante interesse científico para a
 compreensão das organização e evolução do povoamento medievais na região
 minhota.</INTERE>
-   <BIBLIO>ALMEIDA, C.A.F. (1987) Alto Minho, (novos guias de Portugal, 5), Editorial
+		<BIBLIO>ALMEIDA, C.A.F. (1987) Alto Minho, (novos guias de Portugal, 5), Editorial
 Presença, Lisboa, 1987. </BIBLIO>
-   <AUTOR> Luís Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luís Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

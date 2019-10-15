@@ -4,9 +4,8 @@
     
     <xsl:template match="ARQELEM">
         <xsl:result-document href="files/arq{count(preceding::ARQELEM)+1}.xml">
-            <ARQELEM>
-                <xsl:copy-of select="child::*"/>
-            </ARQELEM>
+            <xsl:processing-instruction name="xml-stylesheet">type="text/xsl" href="arq2html.xsl"</xsl:processing-instruction>
+            <xsl:copy-of select="."/>
         </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>

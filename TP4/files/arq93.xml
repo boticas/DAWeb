@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Paderne </IDENTI>
-   <DESCRI> Igreja </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Paderne</LUGAR>
-   <FREGUE> Paderne </FREGUE>
-   <CONCEL> Melgaço </CONCEL>
-   <CODADM> 160309 </CODADM>
-   <LATITU> 568,9 </LATITU>
-   <LONGIT> 188,3 </LONGIT>
-   <ALTITU> 240m </ALTITU>
-   <ACESSO>O acesso faz-se directamente pelo antigo traçado da estrada EN.202, na
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Paderne </IDENTI>
+		<DESCRI> Igreja </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Paderne</LUGAR>
+		<FREGUE> Paderne </FREGUE>
+		<CONCEL> Melgaço </CONCEL>
+		<CODADM> 160309 </CODADM>
+		<LATITU> 568,9 </LATITU>
+		<LONGIT> 188,3 </LONGIT>
+		<ALTITU> 240m </ALTITU>
+		<ACESSO>O acesso faz-se directamente pelo antigo traçado da estrada EN.202, na
 direcção Melgaço - Chaviães. O monumento não está sinalizado.</ACESSO>
-   <DESARQ>A fundação original do mosteiro de S. Salvador de Paderne remonta ao tempo
+		<DESARQ>A fundação original do mosteiro de S. Salvador de Paderne remonta ao tempo
 da formação da monarquia portuguesa mas é mal conhecida. Segundo a tradição,
 deve-se à iniciativa da condessa Paterna, estando a igreja já construída em
 1130, ano em que terá sido consagrada pelo bispo de Tui. Tratava-se então de
@@ -65,25 +66,25 @@ XIII, podendo portanto ser consideradas duas das esculturas mais antigas
 desse género, em Portugal. O monumento, cujos trabalhos de conservação
 iniciados pela Direcção-Geral dos Edifícios e Monumentos Nacionais não foram
 concluídos, apresenta alguns sinais de degradação.</DESARQ>
-   <INTERP>Igreja de fundação medieval.</INTERP>
-   <INTERE>Trata-se de um monumento de incontornável significado histórico regional e,
+		<INTERP>Igreja de fundação medieval.</INTERP>
+		<INTERE>Trata-se de um monumento de incontornável significado histórico regional e,
 pelos enigmas da solução planimétrica que ostenta, de excepcional valor
 científico e patrimonial, fundamental para a compreensão do povoamento
 medieval e para o estudo da penetração e difusão do "<LIGA TERMO="românico">românico</LIGA>" na região. Está classificado como Monumento Nacional (Dec.
 de 16-6-1910).</INTERE>
-   <BIBLIO>ALMEIDA C.A.F.(1978) Arquitectura Românica de Entre Douro e Minho, Tese de
+		<BIBLIO>ALMEIDA C.A.F.(1978) Arquitectura Românica de Entre Douro e Minho, Tese de
 Doutoramento (policopiada), Faculdade de Letras da Universidade do Porto,
 Porto, 1978. </BIBLIO>
-   <BIBLIO> ALMEIDA C.A.F.(1986) História da Arte em Portugal. 2: O românico.
+		<BIBLIO> ALMEIDA C.A.F.(1986) História da Arte em Portugal. 2: O românico.
 Lisboa, 1986, pp.104. </BIBLIO>
-   <BIBLIO> ALMEIDA C.A.F.(1987) Alto Minho, (novos guias de Portugal, 5),
+		<BIBLIO> ALMEIDA C.A.F.(1987) Alto Minho, (novos guias de Portugal, 5),
 Editorial Presença, Lisboa, 1987. </BIBLIO>
-   <BIBLIO>GRAF G.N. e GUSMÃO A. N.(1988) Portugal Roman / 2, Ediciones
+		<BIBLIO>GRAF G.N. e GUSMÃO A. N.(1988) Portugal Roman / 2, Ediciones
 Encuentro, Madrid, 1988. </BIBLIO>
-   <BIBLIO> BARROCA M.J. (1987) Necrópoles e Sepulturas Medievais de
+		<BIBLIO> BARROCA M.J. (1987) Necrópoles e Sepulturas Medievais de
 Entre-Douro-E-Minho (séculos v a XV), Provas de Aptidão Pedagógica e
 Capacidade Científica, (policopiado), Faculdade de Letras da Universidade do
 Porto, Porto,1987. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

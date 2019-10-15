@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Granjinha </IDENTI>
-   <DESCRI> Capela; <LIGA TERMO="villa"> villa</LIGA> romana </DESCRI>
-   <CRONO> Romanização / Idade Média </CRONO>
-   <LUGAR> Granjinha </LUGAR>
-   <FREGUE> Granjinha </FREGUE>
-   <CONCEL> Chaves </CONCEL>
-   <LATITU> 529,1 </LATITU>
-   <LONGIT> 253,4 </LONGIT>
-   <ALTITU> 410m </ALTITU>
-   <ACESSO>Faz-se pela estrada municipal que parte de Chaves. </ACESSO>
-   <QUADRO>O sítio da Granjinha situa-se numa sequência de relevos que descem para o
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Granjinha </IDENTI>
+		<DESCRI> Capela; <LIGA TERMO="villa"> villa</LIGA> romana </DESCRI>
+		<CRONO> Romanização / Idade Média </CRONO>
+		<LUGAR> Granjinha </LUGAR>
+		<FREGUE> Granjinha </FREGUE>
+		<CONCEL> Chaves </CONCEL>
+		<LATITU> 529,1 </LATITU>
+		<LONGIT> 253,4 </LONGIT>
+		<ALTITU> 410m </ALTITU>
+		<ACESSO>Faz-se pela estrada municipal que parte de Chaves. </ACESSO>
+		<QUADRO>O sítio da Granjinha situa-se numa sequência de relevos que descem para o
 Tâmega, a SO de Chaves, na margem direita do rio, inserindo-se já na chamada
 Veiga de Chaves.</QUADRO>
-   <TRAARQ>Escavações realizadas em 1986 por A. R. Colmenero, e em 1986/87, por
+		<TRAARQ>Escavações realizadas em 1986 por A. R. Colmenero, e em 1986/87, por
 Francisco Sande Lemos (U. A. U. M.)</TRAARQ>
-   <DESARQ>O sítio da Granjinha situa-se no eixo viário da estrada romana Bracara
+		<DESARQ>O sítio da Granjinha situa-se no eixo viário da estrada romana Bracara
 Augusta (Braga) e Acquae Flaviae (Chaves), numa zona de alta potencialidade
 agrícola.
 No perímetro da pequena aldeia foram encontrados, em diversas ocasiões,
@@ -44,14 +45,14 @@ votivas; uma dedicada às Ninfas, outra aos Lares Tarmucenbeacis Graveis
 (Encarnação 1975, 217-218) e a descoberta, em 1986, dedicada aos deuses
 tutelares de Acquae Flaviae por M. Ulpius Vaturninus (Encarnação 1990, pp.
 454-455).</DESARQ>
-   <INTERP> Villa Romana.</INTERP>
-   <DEPOSI>Museu D. Diogo de Sousa,(cerâmica). </DEPOSI>
-   <BIBLIO>ENCARNAÇÃO, J. D`(1975). Divindades indígenas sob o domínio romano em
+		<INTERP> Villa Romana.</INTERP>
+		<DEPOSI>Museu D. Diogo de Sousa,(cerâmica). </DEPOSI>
+		<BIBLIO>ENCARNAÇÃO, J. D`(1975). Divindades indígenas sob o domínio romano em
 Portugal, Imprensa Nacional - Casa da Moeda, Lisboa. </BIBLIO>
-   <BIBLIO> ENCARNAÇÃO, J. D`(1990). O domínio romano, in Portugal das origens
+		<BIBLIO> ENCARNAÇÃO, J. D`(1990). O domínio romano, in Portugal das origens
 à romanização, J. de Alarcão (coord), Nova História. </BIBLIO>
-   <BIBLIO> LEMOS, F. S. (1988). Sondagens na Capela da Granjinha, Chaves
+		<BIBLIO> LEMOS, F. S. (1988). Sondagens na Capela da Granjinha, Chaves
 (1986/1987), Cadernos de Arqueologia, Série II, 5, Braga, pp. 163- 171.</BIBLIO>
-   <AUTOR> Manuela Martins </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Manuela Martins </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

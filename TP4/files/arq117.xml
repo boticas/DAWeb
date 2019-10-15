@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Parada </IDENTI>
-   <DESCRI> Ponte </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Parada </LUGAR>
-   <FREGUE> Lindoso </FREGUE>
-   <CONCEL> Ponte da Barca </CONCEL>
-   <CODADM> 160612 </CODADM>
-   <LATITU> 543,3 </LATITU>
-   <LONGIT> 192,6 </LONGIT>
-   <ALTITU> 350m </ALTITU>
-   <ACESSO>Junto à aldeia de Parada, sob a ponte que faz a passagem da estrada pelo rio
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Parada </IDENTI>
+		<DESCRI> Ponte </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Parada </LUGAR>
+		<FREGUE> Lindoso </FREGUE>
+		<CONCEL> Ponte da Barca </CONCEL>
+		<CODADM> 160612 </CODADM>
+		<LATITU> 543,3 </LATITU>
+		<LONGIT> 192,6 </LONGIT>
+		<ALTITU> 350m </ALTITU>
+		<ACESSO>Junto à aldeia de Parada, sob a ponte que faz a passagem da estrada pelo rio
 de Parada. O acesso faz-se directamente a partir da estrada nacional
 EN.304-1 (ligação Ponte da Barca à fronteira da Madalena - troço do futuro
 IC.28), junto ao café "Mó". O monumento não está sinalizado.</ACESSO>
-   <DESARQ>Neste local conserva-se uma ponte em cantaria de <LIGA TERMO="silhar">silhares</LIGA> graníticos, com um troço de via lajeada, ambas com
+		<DESARQ>Neste local conserva-se uma ponte em cantaria de <LIGA TERMO="silhar">silhares</LIGA> graníticos, com um troço de via lajeada, ambas com
 remodelações. A ponte é uma construção de fábrica razoável, de um só arco,
 peraltado, solidamente alicerçado nas paredes graníticas das margens. O aro
 do<LIGA TERMO="arco"> arco</LIGA>é formado por <LIGA TERMO="aduela">aduelas</LIGA> bem afeiçoadas, compondo um intradorso de grande perfeição,
@@ -49,13 +50,13 @@ muito afectado no seu enquadramento paisagístico em dois aspectos: está
 ponte construída em 1987 para servir o traçado rectificado da EN.304-1,
 agora um troço do IC-28, e tem as suas margens transformadas em escombreiras
 de obras e vazadouro de lixos de toda a espécie.</DESARQ>
-   <INTERE>Este monumento é, como obra pontística, um valor patrimonial inquestionável.
+		<INTERE>Este monumento é, como obra pontística, um valor patrimonial inquestionável.
 É também um importante testemunho da velha estrada medieval que ligava Aboim
 da Nóbrega, antiga cabeça de Terra, e depois a vila da Barca, à Galiza.
 Detem por isso grande importância histórico-arqueológica, apesar da ameaça a
 que está sujeita a envolvente. </INTERE>
-   <BIBLIO>FONTES, L.(1996). O Território de Lindoso. Paisagem e Arqueologia (tese de
+		<BIBLIO>FONTES, L.(1996). O Território de Lindoso. Paisagem e Arqueologia (tese de
 mestrado, em conclusão), Universidade do Minho, Braga, 1996. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>

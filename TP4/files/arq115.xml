@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arq2html.xsl"?>
 <ARQELEM>
-   <TIPO ASSUNTO="arqueossitio"/>
-   <IDENTI> Lindoso </IDENTI>
-   <DESCRI> Castelo </DESCRI>
-   <CRONO> Idade Média</CRONO>
-   <LUGAR> Lindoso </LUGAR>
-   <FREGUE> Lindoso </FREGUE>
-   <CONCEL> Ponte da Barca </CONCEL>
-   <CODADM> 160612 </CODADM>
-   <LATITU> 544,2 </LATITU>
-   <LONGIT> 194,5 </LONGIT>
-   <ALTITU> 462m </ALTITU>
-   <ACESSO>O acesso ao castelo faz-se pelo caminho municipal que liga a aldeia à
+		<TIPO ASSUNTO="arqueossitio"/>
+		<IDENTI> Lindoso </IDENTI>
+		<DESCRI> Castelo </DESCRI>
+		<CRONO> Idade Média</CRONO>
+		<LUGAR> Lindoso </LUGAR>
+		<FREGUE> Lindoso </FREGUE>
+		<CONCEL> Ponte da Barca </CONCEL>
+		<CODADM> 160612 </CODADM>
+		<LATITU> 544,2 </LATITU>
+		<LONGIT> 194,5 </LONGIT>
+		<ALTITU> 462m </ALTITU>
+		<ACESSO>O acesso ao castelo faz-se pelo caminho municipal que liga a aldeia à
 estrada nacional EN.304-1 (ligação Ponte da Barca à fronteira da Madalena -
 troço do futuro IC.28). O monumento está sinalizado.</ACESSO>
-   <DESARQ>As fontes documentais são praticamente omissas em relação aos tempos
+		<DESARQ>As fontes documentais são praticamente omissas em relação aos tempos
 medievos do castelo de Lindoso, não se conhecendo nenhum documento que
 refira a sua fundação. Com uma função estritamente militar, o castelo de
 Lindoso nunca deteve qualquer estatuto jurídico-administrativo,
@@ -122,7 +123,7 @@ de obras de restauro e conservação por parte da D.G.E.M.N.. Em 18 de
 Fevereiro de 1976, por despacho exarado nos termos do Decreto-Lei nº 48059,
 de 23 de Novembro de 1967, passou para administração do Parque Nacional da
 Peneda-Gerês. Está em excelente estado de conservação.</DESARQ>
-   <INTERE>Trata-se de um monumento de inegável significado histórico regional e de
+		<INTERE>Trata-se de um monumento de inegável significado histórico regional e de
 excepcional valor científico e patrimonial, fundamental para a compreensão
 dos povoamento medieval e definição da fronteira na região, classificado
 como Monumento Nacional (Dec. 20985, de 7-3-1932), sob administração do
@@ -130,15 +131,15 @@ PNPG. Constitui já uma importante atracção turística. Foi recentemente
 objecto de um "projecto de tratamento museológico e rentabilização
 cultural", abrigando actualmente um Centro de Interpretação do
 PNPG.</INTERE>
-   <BIBLIO>ALMEIDA, C.A.F.(1987). Alto Minho, (novos guias de Portugal, 5), Editorial
+		<BIBLIO>ALMEIDA, C.A.F.(1987). Alto Minho, (novos guias de Portugal, 5), Editorial
 Presença, Lisboa, 1987. </BIBLIO>
-   <BIBLIO>FONTES, L. e REGALO, H.J.L.(1992). "Lindoso, Um Castelo no Parque Nacional
+		<BIBLIO>FONTES, L. e REGALO, H.J.L.(1992). "Lindoso, Um Castelo no Parque Nacional
 ", Correio da Natureza, 16, Instituto de Conservação da Natureza, Lisboa,
 1992, pp.18-23. </BIBLIO>
-   <BIBLIO>FONTES, L. e REGALO, H.J.L.(1994). "A componente arqueológica do "Projecto
+		<BIBLIO>FONTES, L. e REGALO, H.J.L.(1994). "A componente arqueológica do "Projecto
 de Tratamento Museológico e Rentabilização Cultural" do Castelo do Lindoso",
 Actas V Jornadas Arqueológicas (20, 21 e 22 Maio 1993), I, Associação dos
 Arqueólogos Portugueses, Lisboa, 1994, pp.33-44. </BIBLIO>
-   <AUTOR> Luis Fontes </AUTOR>
-   <DATA>04-FEV-1998</DATA>
-</ARQELEM>
+		<AUTOR> Luis Fontes </AUTOR>
+		<DATA>04-FEV-1998</DATA>
+	</ARQELEM>
