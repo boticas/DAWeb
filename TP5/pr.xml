@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/joseb/Desktop/Universidade/mestrado/daw/aula_2/pr_oficial.dtd">
+<pr>
+    <metadata>
+        <keyname>TP3-PG41081-JB</keyname>
+        <title>TP5 - Servidores em Node.js</title>
+        <subtitle>Trabalho nº5, inserido nos TPC da UC de Desenvolvimento de Aplicações Web 2019.</subtitle>
+        <supervisor homepage="https://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+        <bdate>15/10/2019</bdate>
+        <edate>22/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41081</identifier>
+            <name>José Boticas</name>
+            <email>pg41081@alunos.uminho.pt</email>
+            <git>https://github.com/SacitobJose</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho tem como objetivo consolidar os conteúdos lecionados na aula de 15/10/2019.
+        </p>
+        <p>
+            Para o TPC nº5, foi pedido que os alunos codificassem um servidor em <i>node.js</i> capaz de manter uma lista de tarefas.
+        </p>
+        <p>
+            Para isso, a lista é mantida no servidor sob a forma de um ficheiro JSON, permitindo a adição de novas tarefas e a consulta das mesmas.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.xml">XML escrito para este PR</deliverable>
+        <deliverable path="./pr.html">HTML gerado para este PR</deliverable>
+        <deliverable path="./server.js">Servidor Node.js - Gestor de lista de tarefas</deliverable>
+        <deliverable path="./templates/">Templates das páginas HTML, em pug, para uso do servidor</deliverable>
+        <deliverable path="./stylesheets/">Folhas de estilo, em CSS</deliverable>
+    </deliverables>
+</pr>
