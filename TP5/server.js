@@ -24,9 +24,14 @@ var myServer = http.createServer((req, res) => {
                 res.end()
             })
         } else if((purl.pathname == '/') || (purl.pathname == '/tarefas')) {
-            res.writeHead(200, { 'Content-Type': 'text/html; charset = utf-8' })
-            res.write(pug.renderFile('templates/index.pug'))
-            res.end()   
+            jsonfile.readFile(myDB, (erro, tarefas) => {
+                res.writeHead(200, { 'Content-Type': 'text/html; charset = utf-8' })
+                if (!erro)
+                    res.write(pug.renderFile('templates/index.pug', { lista: tarefas }))
+                else
+                    res.write(pug.renderFile('templates/error.pug', { e: "Erro na leitura da base de dados" }))
+                res.end()
+            })  
         } else if (purl.pathname == '/w3.css') {
             fs.readFile('stylesheets/w3.css', (erro, data) => {
                 if(!erro) {
@@ -38,20 +43,6 @@ var myServer = http.createServer((req, res) => {
                 }
                 res.end()
             })
-        } else if (purl.pathname == "/listar") {
-            jsonfile.readFile(myDB, (erro, tarefas) => {
-                res.writeHead(200, { 'Content-Type': 'text/html; charset = utf-8' })
-                if (!erro)
-                    res.write(pug.renderFile('templates/listaTarefas.pug', { lista: tarefas }))
-                else
-                    res.write(pug.renderFile('templates/error.pug', { e: "Erro na leitura da base de dados" }))
-                res.end()
-            })
-        } else if (purl.pathname == "/registar") {
-            res.writeHead(200, { 'Content-Type': 'text/html; charset = utf-8' })
-            res.write(pug.renderFile('templates/form-tarefas.pug'))
-            res.end()
-        
         } else {
             res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" })
             res.write(pug.renderFile("templates/error.pug", { e: "ERRO: a página '" + purl.pathname.slice(1) + "' não existe" }))
