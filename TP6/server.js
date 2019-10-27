@@ -1,99 +1,37 @@
-var http = require('http')
-var url = require('url')
-var pug = require('pug')
-var fs = require('fs')
-var jsonfile = require('jsonfile')
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var logger = require('morgan');
 
-var {parse} = require('querystring') 
+var indexRouter = require('./routes/index');
 
-var myDB = "listaTarefas.json"
+var app = express();
 
-var myServer = http.createServer((req, res) => {
-    var purl = url.parse(req.url, true)
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
-    console.log(req.method + ' ' + purl.pathname)
+app.use(logger('dev'));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static(path.join(__dirname, 'public')));
 
-    if(req.method == 'GET') {
+app.use('/', indexRouter);
 
-        if(purl.pathname == '/favicon.ico') {
-            fs.readFile("favicon.ico", (erro, data) => {
-                if(!erro) {
-                    res.writeHead(200, { 'Content-Type': "image/x-icon" })
-                    res.write(data)
-                }
-                res.end()
-            })
-        } else if((purl.pathname == '/') || (purl.pathname == '/tarefas')) {
-            jsonfile.readFile(myDB, (erro, tarefas) => {
-                res.writeHead(200, { 'Content-Type': 'text/html; charset = utf-8' })
-                if (!erro)
-                    res.write(pug.renderFile('templates/index.pug', { lista: tarefas }))
-                else
-                    res.write(pug.renderFile('templates/error.pug', { e: "Erro na leitura da base de dados" }))
-                res.end()
-            })  
-        } else if (purl.pathname == '/w3.css') {
-            fs.readFile('stylesheets/w3.css', (erro, data) => {
-                if(!erro) {
-                    res.writeHead(200, { 'Content-Type': 'text/css' })
-                    res.write(data)
-                } else {
-                    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' })
-                    res.write(pug.renderFile("<p>Erro: " + erro + "</p>"))
-                }
-                res.end()
-            })
-        } else {
-            res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" })
-            res.write(pug.renderFile("templates/error.pug", { e: "ERRO: a página '" + purl.pathname.slice(1) + "' não existe" }))
-            res.end()
-        }
+// catch 404 and forward to error handler
+app.use(function (req, res, next) {
+    next(createError(404));
+});
 
-    } else if(req.method == 'POST') {
-        if(purl.pathname == "/tarefa") {
-            recuperaInfo(req, resultado => {
-                jsonfile.readFile(myDB, (erro, tarefas) => {
-                    if(!erro) {
-                        tarefas.push(resultado)
-                        jsonfile.writeFile(myDB, tarefas, erro => {
-                            if(erro)
-                                console.log(erro)
-                            else
-                                console.log("Lista de tarefas gravada com sucesso")
-                                res.writeHead(302, { "Location": "/" })
-                                res.end()
-                        })
-                    } else {
-                        console.log("Não foi possível ler a base de dados")
-                    }
-                })
-            })
-        } else {
-            res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" })
-            res.write(pug.renderFile("templates/error.pug", { e: "ERRO: a página '" + purl.pathname.slice(1) + "' não existe" }))
-            res.end()
-        }
-        
-    } else {
-        res.writeHead(200, { 'Content-Type': 'text/html; charset = utf-8' })
-        console.log("ERRO: " + req.method + " não suportado")
-        res.write(pug.renderFile('templates/error.pug', {e: "ERRO: " + req.method + " não suportado"}))
-        res.end()
-    }
-})
+// error handler
+app.use(function (err, req, res, next) {
+    // set locals, only providing error in development
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-myServer.listen(7777, () => {
-    console.log("Servidor à escuta na porta 7777")
-})
+    // render the error page
+    res.status(err.status || 500);
+    res.render('error');
+});
 
-function recuperaInfo(request, callback) {
-    if(request.headers['content-type'] == 'application/x-www-form-urlencoded') {
-        let body = ''
-        request.on('data', bloco => {
-            body += bloco.toString()
-        })
-        request.on('end', () => {
-            callback(parse(body))
-        })
-    }
-}
+module.exports = app

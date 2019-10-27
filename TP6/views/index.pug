@@ -1,0 +1,39 @@
+extends layout
+block content
+    .w3-container.w3-section
+        .w3-card-4
+            header.w3-container.w3-teal
+                h1 Arquivo Sonoro
+                a.w3-right(onclick="window.location.assign('/arq/add')")
+                    img(style="max-height: 40px" src="/images/add.png" alt="")
+
+    .w3-container
+        table.w3-table-all.w3-section
+            tr
+                th ID
+                th Província
+                th Local
+                th Título
+                th Músico
+                th Duração
+                th Operações
+            each a, idx in arq
+                tr
+                    td= a.id
+                    td= a.prov
+                    td= a.local
+                    td= a.tit
+                    td= a.musico
+                    td= a.duracao
+                    td
+                        a(onclick="window.location.assign('/arq/" + a.id + "')")
+                            img(src="/images/consult.png" alt="")
+                        a(onclick="eliminar('" + a.id + "')")
+                            img(src="/images/delete.png" alt="")
+                        a(onclick="window.location.assign('/arq/update/" + a.id + "')")
+                            img(src="/images/update.png" alt="")
+
+        .w3-container.w3-light-blue
+            footer.w3-container
+                p
+                    a(href="/") Voltar à página principal

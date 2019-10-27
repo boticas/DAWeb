@@ -1,0 +1,33 @@
+{
+  "name": "tp6",
+  "version": "1.0.0",
+  "description": "webserver for arq-son--EVO with CRUD",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SacitobJose/DAWeb.git"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonfile": "^5.0.0",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "keywords": [
+    "webserver",
+    "arq-son-EVO",
+    "express",
+    "DWeb"
+  ],
+  "author": "joseb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SacitobJose/DAWeb/issues"
+  },
+  "homepage": "https://github.com/SacitobJose/DAWeb#readme"
+}
