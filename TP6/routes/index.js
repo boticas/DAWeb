@@ -122,13 +122,15 @@ router.post("/arq/new", function (req, res, next) {
 */
 // PUT de um elemento atualizado
 router.put("/arq/:id", function (req, res, next) {
-    jsonfile.readFile(myDB, (erro, arq) => {
+    jsonfile.readFile(myDB, (erro, obj) => {
         if (!erro) {
-            const idx = arq.arq.doc.find((value) => value.id == req.params.id)
+            docs = obj.arq.doc
+            const idx = docs.find((value) => value.id == req.params.id)
             if (idx != -1) {
                 req.body.id = req.params.id
-                arq.arq.doc[idx] = req.body
-                jsonfile.writeFile(myDB, arq, erro => {
+                docs[idx] = req.body
+                obj.arq.doc = docs
+                jsonfile.writeFile(myDB, obj, erro => {
                     if (!erro) {
                         console.log("Elemento atualizado com sucesso...")
                         res.sendStatus(200)

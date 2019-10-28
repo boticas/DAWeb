@@ -6,13 +6,104 @@ block content
             header.w3-container.w3-light-blue
                 h3 Alterar Elemento
             .w3-container
-                input.w3-input.w3-border.w3-section.w3-light-grey(id="prov" type="text" name="prov" value=a.prov)
-                input.w3-input.w3-border.w3-section.w3-light-grey(id="local" type="text" name="local" value=a.local)
-                input.w3-input.w3-border.w3-section.w3-light-grey(id="tit" type="text" name="tit" value=a.tit)
-                input.w3-input.w3-border.w3-section.w3-light-grey(id="musico" type="text" name="musico" value=a.musico)
-                input.w3-input.w3-border.w3-section.w3-light-grey(id="duracao" type="time" name="duracao" value=a.duracao)
-                button.w3-btn.w3-circle.w3-border.w3-margin-bottom.w3-right.w3-blue-grey(onclick="atualizar('" + a.id + "')")
-                    img(src="/images/update.png" alt="")
+                table.w3-table-all.w3-margin-bottom
+                    tr
+                        th ID
+                        td= a.id
+                    tr
+                        th Província
+                        td
+                            input(id="prov" class="input-field2" type="text" placeholder=a.prov value=a.prov)
+                    if (a.local)
+                        tr
+                            th Local
+                            td
+                                input(id="local" class="input-field2" type="text" placeholder=a.local value=a.local)
+                    tr
+                        th Título
+                        td
+                            input(id="tit" class="input-field2" type="text" placeholder=a.tit value=a.tit)
+                    if (a.inst)
+                        tr
+                            th Intrumento(s)
+                            td
+                                input(id="inst" class="input-field2" type="text" placeholder=a.inst  value=a.inst)
+                    tr
+                        th Ficheiro da música
+                        td
+                            ul
+                                li 
+                                    u Formato
+                                    input(id="file-t" class="input-field2" type="text" placeholder=a.file["-t"] value=a.file["-t"])
+                                li
+                                    u Nome
+                                    input(id="file#text" class="input-field2" type="text" placeholder=a.file["#text"] value=a.file["#text"])
+                    if (a.musico)
+                        tr
+                            th Músico
+                            if (a.musico["#text"])
+                                td
+                                    ul
+                                        li
+                                            u Nome(s)
+                                            if (typeof a.musico["#text"] === "string")
+                                                input(id="musico#text" class="input-field2" type="text" placeholder=a.musico["#text"] value=a.musico["#text"])
+                                                li
+                                                    u Localidade:
+                                                    input(id="musicofrom" class="input-field2" type="text" placeholder=a.musico["from"] value=a.musico["from"])
+                                            else
+                                                ol
+                                                    for t, i in a.musico["#text"]
+                                                        li
+                                                            | 
+                                                            input(id=`musico#text${i}` class="input-field2" type="text" placeholder=t value=t)
+                                                li
+                                                    u Profissão
+                                                    input(id="musicoprof" class="input-field2" type="text" placeholder=a.musico["prof"] value=a.musico["prof"])
+                            else
+                                td
+                                    ul
+                                        li
+                                            u Nome
+                                            input(id="musico" class="input-field2" type="text" placeholder=a.musico value=a.musico)
+                    if (a.obs)
+                        tr
+                            th Observações
+                            if (a.obs["#text"])
+                                td
+                                    ul
+                                        if (typeof a.obs["#text"] === "string")
+                                            li
+                                                input(id="obs#text" class="input-field2" type="text" placeholder=a.obs["#text"] value=a.obs["#text"])
+                                        else
+                                            each t, i in a.obs["#text"]
+                                                li
+                                                    input(id=`obs#text${i}` class="input-field2" type="text" placeholder=t value=t)
+                                        br
+                                        li
+                                            u Outros ficheiros associados
+                                            ul
+                                                each f, i in a.obs["file"]
+                                                    li
+                                                        u Formato:
+                                                        input(id=`obsfile-t${i}` class="input-field2" type="text" placeholder=f["-t"] value=f["-t"])
+                                                        br
+                                                        u Nome:
+                                                        input(id=`obsfile#text${i}` class="input-field2" type="text" placeholder=f["#text"] value=f["#text"])
+                                        br
+                                        li
+                                            u Instrumento(s) associado(s)
+                                            input(id="obsintxt" class="input-field2" type="text" placeholder=a.obs["intxt"] value=a.obs["intxt"])
+                            else
+                                td
+                                    input(id="obs" class="input-field2" type="text" placeholder=a.obs value=a.obs)
+                    tr
+                        th Duração da música
+                        td
+                            input(id="duracao" class="input-field2" type="text" placeholder=a.duracao value=a.duracao)
+
+                    button.w3-btn.w3-circle.w3-border.w3-right.w3-white(onclick="atualizar('" + a.id + "')")
+                        img(style="max-height: 25px; display: inline-block" src="/images/update.png" alt="")
 
         .w3-container.w3-light-blue
             footer.w3-container

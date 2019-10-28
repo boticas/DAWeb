@@ -6,25 +6,109 @@ block content
             header.w3-container.w3-light-blue
                 h3 Informação de Elemento
             .w3-container
-                table.w3-table-all.w3-section
+                table.w3-table-all.w3-margin-bottom
+                    tr
+                        th ID
+                        td= a.id
                     tr
                         th Província
-                        th Local
-                        th Título
-                        th Músico
-                        th Duração
-                        th Operações
-                    tr
                         td= a.prov
-                        td= a.local
+                    if (a.local)
+                        tr
+                            th Local 
+                            td= a.local
+                    tr
+                        th Título
                         td= a.tit
-                        td= a.musico
-                        td= a.duracao
+                    if (a.inst)
+                        tr
+                            th Intrumento(s)
+                            td= a.inst
+                    tr
+                        th Ficheiro da música
                         td
-                            a(onclick="eliminar('" + a.id + "')")
-                                img(src="/images/delete.png" alt="")
-                            a(onclick="window.location.assign('/arq/update/" + a.id + "')")
-                                img(src="/images/update.png" alt="")
+                            ul
+                                li 
+                                    u Formato
+                                    | 
+                                    = a.file["-t"]
+                                li
+                                    u Nome
+                                    | 
+                                    = a.file["#text"]
+                    if (a.musico)
+                        tr
+                            th Músico 
+                            if (a.musico["#text"])
+                                td
+                                    ul
+                                        li
+                                            u Nome(s):
+                                            if (typeof a.musico["#text"] === 'string')
+                                                | 
+                                                = a.musico["#text"]
+                                                li
+                                                    u Localidade
+                                                    | 
+                                                    = a.musico["from"]
+                                            else
+                                                ol
+                                                    for t, i in a.musico["#text"]
+                                                        li
+                                                            | 
+                                                            = t
+                                                li
+                                                    u Profissão
+                                                    | 
+                                                    = a.musico["prof"]
+                            else
+                                td
+                                    ul
+                                        li
+                                            u Nome
+                                            | 
+                                            = a.musico
+                    if (a.obs)
+                        tr
+                            th Observações
+                            if (a.obs["#text"])
+                                td
+                                    ul
+                                        if (typeof a.obs["#text"] === "string")
+                                            li= a.obs["#text"]
+                                        else
+                                            each t in a.obs["#text"]
+                                                li= t
+                                        br
+                                        li
+                                            u Outros ficheiros associados
+                                            ul
+                                                each f in a.obs["file"]
+                                                    li
+                                                        u Formato
+                                                        | 
+                                                        = f["-t"]
+                                                        br
+                                                        u Nome
+                                                        | 
+                                                        = f["#text"]
+                                        br                                        
+                                        li
+                                            u Instrumento(s) associado(s)
+                                            | 
+                                            = a.obs["intxt"]
+                                                
+                            else
+                                td= a.obs
+                    tr
+                        th Duração da música 
+                        td= a.duracao
+
+                    tr                 
+                        a(onclick="eliminar('" + a.id + "')")
+                            img(style="max-height: 25px; display: inline-block" src="/images/delete.png" alt="")
+                        a(onclick="window.location.assign('/arq/update/" + a.id + "')")
+                            img(style="max-height: 25px; display: inline-block" src="/images/update.png" alt="")
 
         .w3-container.w3-light-blue
             footer.w3-container
