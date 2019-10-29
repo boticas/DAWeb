@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/joseb/Desktop/Universidade/mestrado/daw/aulas/aula_3/pr_oficial.dtd">
+<pr>
+    <metadata>
+        <keyname>TP7-PG41081-JB</keyname>
+        <title>TP7 - Webserver para aquivo sonoro, com Express</title>
+        <subtitle>Trabalho nº7, inserido nos TPC da UC de Desenvolvimento de Aplicações Web 2019.</subtitle>
+        <supervisor homepage="https://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+        <bdate>29/10/2019</bdate>
+        <edate>05/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41081</identifier>
+            <name>José Boticas</name>
+            <email>pg41081@alunos.uminho.pt</email>
+            <git>https://github.com/SacitobJose</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho tem como objetivo consolidar os conteúdos lecionados na aula de 29/10/2019.
+        </p>
+        <p>
+            Para o TPC nº7, foi pedido que os alunos codificassem um servidor em <i>node.js</i> capaz de manter uma base de dados de filmes.
+        </p>
+        <p>
+            Para isso, recorre-se ao mongo, permitindo a consulta de toda a informação e seguindo a filosofia CRUD:
+        </p>
+        <p>
+            <b>1 - </b> 
+            criação de novos elementos para o arquivo sonoro;
+        </p>
+        <p>
+            <b>2 - </b>
+            consulta de um elemento do arquivo sonoro;
+        </p>
+        <p>
+            <b>3 - </b> 
+            atualização de um elemento do arquivo sonoro;
+        </p>
+        <p>
+            <b>4 - </b>
+            eliminação de elementos do arquivo sonoro;
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.xml">XML escrito para este PR</deliverable>
+        <deliverable path="./pr.html">HTML gerado para este PR</deliverable>
+        <deliverable path="./filmes/app.js">Servidor Node.js</deliverable>
+        <deliverable path="./bin/www">Ficheiro para executar o servidor</deliverable>
+        <deliverable path="./filmes/modules/filme.js">Esquema base dos documentos da base de dados</deliverable>
+        <deliverable path="./filmes/controllers/filme_c.js">Controlador para os documentos da base de dados</deliverable>
+        <deliverable path="./filmes/public/images/">Imagens do cliente</deliverable>
+        <deliverable path="./filmes/public/javascripts/">Ficheiros JavaScript do cliente</deliverable>
+        <deliverable path="./filmes/public/stylesheets/">Folhas de estilo do cliente, em CSS</deliverable>
+        <deliverable path="./filmes/views/">Templates das páginas HTML, em pug, para uso do servidor</deliverable>
+        <deliverable path="./respostas.txt">Respostas às queries requeridas</deliverable>
+    </deliverables>
+</pr>
