@@ -31,4 +31,22 @@ Filmes.agregar = campo => {
     return Filme
         .aggregate([{$group: {_id: "$" + campo, contador: {$sum: 1}}}, {$sort: {contador: -1}}])
         .exec()
-} 
+}
+
+Filmes.apagar = fid => {
+    return Filme
+        .remove({_id: fid})
+        .exec()
+}
+
+Filmes.novo = doc => {
+    return Filme
+        .insert(doc)
+        .exec()
+}
+
+Filmes.update = fid, updated => {
+    return Filme
+        .update({_id: fid}, updated)
+        .exec()
+}
