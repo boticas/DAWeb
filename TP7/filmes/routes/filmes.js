@@ -26,25 +26,25 @@ router.get(["/all", "/filmes/all"], function (req, res, next) {
 		})
 })
 
-/* GET da página de um filme */
-router.get("/filmes/:idFilme", function (req, res) {
-	Filmes.consultar(req.params.idFilme)
-		.then(filme => res.render('filme', { filme }))
-		.catch(erro => {
-			console.log(erro)
-			res.status(400).render('error', { error: erro })
-		})
-})
-
 /* GET da página de adição de filmes */
 router.get("/filmes/add", function (req, res) {
 	res.render('add')
 })
 
+/* GET da página de um filme */
+
 /* GET da página de edição de filmes */
 router.get("/filmes/update/:idFilme", function (req, res) {
 	Filmes.consultar(req.params.idFilme)
 		.then(filme => res.render('update', { filme }))
+		.catch(erro => {
+			console.log(erro)
+			res.status(400).render('error', { error: erro })
+		})
+})
+router.get("/filmes/:idFilme", function (req, res) {
+	Filmes.consultar(req.params.idFilme)
+		.then(filme => res.render('filme', { filme }))
 		.catch(erro => {
 			console.log(erro)
 			res.status(400).render('error', { error: erro })
