@@ -48,7 +48,7 @@
         <deliverable path="./pr.xml">XML escrito para este PR</deliverable>
         <deliverable path="./pr.html">HTML gerado para este PR</deliverable>
         <deliverable path="./filmes/app.js">Servidor Node.js</deliverable>
-        <deliverable path="./bin/www">Ficheiro para executar o servidor</deliverable>
+        <deliverable path="./filmes/bin/www">Ficheiro para executar o servidor</deliverable>
         <deliverable path="./filmes/modules/filme.js">Esquema base dos documentos da base de dados</deliverable>
         <deliverable path="./filmes/controllers/filme_c.js">Controlador para os documentos da base de dados</deliverable>
         <deliverable path="./filmes/public/images/">Imagens do cliente</deliverable>
