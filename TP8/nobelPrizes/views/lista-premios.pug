@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	.w3-container
+		h1 Lista de prémios Nobel
+		table.w3-table-all
+			tr
+				th Ano
+				th Categoria
+				th Operações
+			each p in premios
+				tr
+					td= p.year
+					td= p.category
+					td
+						a(href="/alunos/consultar/" + p._id)
+							img(style="max-height: 25px; display: inline-block" src="/images/consult.png" alt="")
+						
+
+			address
+				a(href="http://localhost:3005/") Homepage
