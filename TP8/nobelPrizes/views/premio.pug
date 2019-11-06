@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        .w3-card-4
+            header.w3-container.w3-light-blue
+                h3 Informação do Prémio Nobel
+            .w3-container
+                table.w3-table-all.w3-margin-bottom
+                    tr
+                        th Título
+                        th Ano
+                        th Vencedores
+                    tr
+                        td= premio.year
+                        td= premio.category
+                        td
+                            ul
+                                each l in premio.laureates
+                                    li= l.firstname + " " + l.surname                                
+
+        .w3-container.w3-light-blue
+            footer.w3-container
+                p
+                    a(href="/") Homepage
+                p
+                    a(href="/premios") Voltar atrás

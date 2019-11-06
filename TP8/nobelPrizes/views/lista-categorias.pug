@@ -6,9 +6,10 @@ block content
 		table.w3-table-all
 			tr
 				th Categoria
-			each c in categorias
-				tr
-					td= c		
+			each cats in categorias
+				each c in cats.categorias
+					tr
+						td= c
 
 			address
 				a(href="http://localhost:3005/") Homepage

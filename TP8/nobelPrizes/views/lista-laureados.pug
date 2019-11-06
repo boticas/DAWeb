@@ -5,14 +5,15 @@ block content
 		h1 Lista de laureados de prémios Nobel
 		table.w3-table-all
 			tr
-                th Nome
+				th Nome
 				th Ano
 				th Categoria
 			each l in laureados
-				tr
-                    td= l.nome
-					td= l.year
-					td= l.category
+				- for (var i = 0; i < l.year.length; i++ ) 
+					tr
+						td= l.firstname + " " + l.surname
+						td= l.year[i]
+						td= l.category[i]
 
 			address
 				a(href="http://localhost:3005/") Homepage

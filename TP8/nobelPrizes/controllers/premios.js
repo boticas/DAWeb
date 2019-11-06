@@ -4,22 +4,22 @@ var Premios = module.exports
 
 // Devolve a lista de premios
 Premios.listar = () => {
-    return Premios.find({}, {year: 1, category: 1}).exec()
+    return Premio.find({}, {year: 1, category: 1}).exec()
 }
 
 // Devolve a info de um premio
-Premios.consultar = id => {
-    return Premios.findOne({_id: id}).exec()
+Premios.consultar = (id) => {
+    return Premio.findOne({_id: id}).exec()
 }
 
 // Devolve a lista de categorias
 Premios.categorias = () => {
-    return Premios.aggregate([{$addToSet: "$category"}])
+    return Premio.aggregate([{$group: {_id: null, categorias: {$addToSet: "$category"}}}])
 }
 
 // Devolve a lista de laureados
 Premios.laureados = () => {
-    return Premiosdb.prizes.aggregate([{ $unwind: '$laureates' }, 
+    return Premio.aggregate([{ $unwind: '$laureates' }, 
                                        { $group: { '_id': '$laureates.id', 
                                                    'year': { '$push': '$year' }, 
                                                    'category': { '$push': '$category' }, 
@@ -28,7 +28,15 @@ Premios.laureados = () => {
                                                  } 
                                        }, 
                                        { $unwind: "$firstname" }, 
-                                       { $unwind: "$surname"}, 
+                                       { $unwind: "$surname"},
                                        { $sort: { firstname: 1, surname: 1 } }
                                     ])
+}
+
+Premios.lista_cat = (categoria) => {
+    return Premio.find({category: categoria}).exec()
+}
+
+Premios.lista_cat_data = (categoria, data) => {
+    return Premio.find({ category: categoria, year: {$gt: data} }).exec()
 }
