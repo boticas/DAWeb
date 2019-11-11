@@ -10,7 +10,6 @@ router.get('/', function (req, res, next) {
 router.get('/categorias', function (req, res, next) {
   axios.get('http://localhost:3005/api/categorias')
     .then(dados => {
-      console.log(dados.data);
       res.render('lista-categorias', { categorias: dados.data }) // o resultado de um axios tem vários campos, incluindo endereços IP utilizados, dados, etc. Os dados estão no campo "data"
     })
     .catch(erro => {
@@ -22,7 +21,6 @@ router.get('/categorias', function (req, res, next) {
 router.get('/laureados', function (req, res, next) {
   axios.get('http://localhost:3005/api/laureados')
     .then(dados => {
-      console.log(dados.data);
       res.render('lista-laureados', { laureados: dados.data }) // o resultado de um axios tem vários campos, incluindo endereços IP utilizados, dados, etc. Os dados estão no campo "data"
     })
     .catch(erro => {

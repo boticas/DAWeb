@@ -38,5 +38,5 @@ Premios.lista_cat = (categoria) => {
 }
 
 Premios.lista_cat_data = (categoria, data) => {
-    return Premio.find({ category: categoria, year: {$gt: data} }).exec()
+    return Premio.find({ category: categoria, year: { $gt: data } }).exec()
 }

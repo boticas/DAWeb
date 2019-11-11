@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/joseb/Desktop/Universidade/mestrado/daw/aulas/aula_3/pr_oficial.dtd">
+<pr>
+    <metadata>
+        <keyname>TP8-PG41081-JB</keyname>
+        <title>TP8 - Webserver para aquivo sonoro, com Express</title>
+        <subtitle>Trabalho nº8, inserido nos TPC da UC de Desenvolvimento de Aplicações Web 2019.</subtitle>
+        <supervisor homepage="https://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+        <bdate>05/10/2019</bdate>
+        <edate>12/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41081</identifier>
+            <name>José Boticas</name>
+            <email>pg41081@alunos.uminho.pt</email>
+            <git>https://github.com/SacitobJose</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho tem como objetivo consolidar os conteúdos lecionados na aula de 05/11/2019.
+        </p>
+        <p>
+            Para o TPC nº8, foi pedido que os alunos codificassem um servidor <i>node.js</i> que dê suporte a uma API de dados(sobre uma base de dados de filmes). 
+            Este exercício pode ser encontrado <xref url="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e2.html#e1">aqui</xref>.
+        </p>
+        <p>
+            Para além disto, foi ainda feita a interface web, embora não fosse necessário.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.xml">XML escrito para este PR</deliverable>
+        <deliverable path="./pr.html">HTML gerado para este PR</deliverable>
+        <deliverable path="./nobelPrizes/bin/www">Ficheiro para executar o servidor</deliverable>
+        <deliverable path="./nobelPrizes/app.js">Servidor Node.js</deliverable>
+        <deliverable path="./nobelPrizes/routes/api.js">API pedida</deliverable>
+        <deliverable path="./nobelPrizes/routes/">Todos os roteadores, incluindo a interface web</deliverable>
+        <deliverable path="./nobelPrizes/modules/premios.js">Esquema base dos documentos da base de dados</deliverable>
+        <deliverable path="./nobelPrizes/controllers/premios.js">Controlador para os documentos da base de dados</deliverable>
+        <deliverable path="./nobelPrizes/views/">Templates das páginas HTML, em pug, para uso do servidor</deliverable>
+        <deliverable path="./nobelPrizes/public/images/">Imagens do cliente</deliverable>
+        <deliverable path="./nobelPrizes/public/stylesheets/">Folhas de estilo do cliente, em CSS</deliverable>
+        <deliverable path="./prize.json">Ficheiro JSON com a base de dados de filmes</deliverable>
+    </deliverables>
+</pr>

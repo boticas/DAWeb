@@ -4,9 +4,23 @@ var Premios = require('../controllers/premios');
 
 /* GET lista de prémios. */
 router.get('/premios', function (req, res, next) {
-    Premios.listar()
-        .then(dados => res.jsonp(dados))
-        .catch(erro => res.status(500).jsonp(erro))
+    if(Object.entries(req.query).length === 0) {
+        Premios.listar()
+            .then(dados => res.jsonp(dados))
+            .catch(erro => res.status(500).jsonp(erro))
+    } else if(req.query.categoria !== undefined && Object.entries(req.query).length === 1) {
+        Premios.lista_cat(req.query.categoria)
+            .then(dados => res.jsonp(dados))
+            .catch(erro => res.status(500).jsonp(erro))
+    } else if (req.query.categoria !== undefined && req.query.data !== undefined && Object.entries(req.query).length === 2) {
+        let category = req.query.categoria
+        let data = req.query.data
+        Premios.lista_cat_data(category, data)
+            .then(dados => res.jsonp(dados))
+            .catch(erro => res.status(500).jsonp(erro))
+    } else {
+        res.status(500).render("error", {error: "Os parâmetros introduzidos não são suportados..."})
+    }
 });
 
 /* GET info completa de um prémio. */
@@ -29,17 +43,5 @@ router.get('/laureados', function (req, res) {
         .then(dados => res.jsonp(dados))
         .catch(erro => res.status(500).jsonp(erro))
 });
-
-router.get('/premios?', (req, res) => {
-    if (req.query.data != null) {
-        Premios.lista_cat(req.query.categoria)
-            .then(dados => res.jsonp(dados))
-            .catch(erro => res.status(500).jsonp(erro))
-    } else {
-        Premios.lista_cat_data(req.query.categoria, req.query.data)
-            .then(dados => res.jsonp(dados))
-            .catch(erro => res.status(500).jsonp(erro))
-    }
-})
 
 module.exports = router;

@@ -4,7 +4,13 @@ var axios = require('axios')
 
 /* GET da lista de premios. */
 router.get('/', function (req, res, next) {
-	axios.get('http://localhost:3005/api/premios')
+	axios.get('http://localhost:3005/api/premios', 
+		{
+			params: {
+				categoria: req.query.categoria,
+				data: req.query.data
+			}
+		})
 		.then(dados => {
 			res.render('lista-premios', { premios: dados.data })
 		})
