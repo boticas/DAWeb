@@ -14,11 +14,11 @@ Obras.consultar = (id) => {
 
 // Devolve a lista de categorias
 Obras.compositores = () => {
-    return Obra.aggregate([{$group: {_id: null, compositores: {$addToSet: "$compositor"}}}])
+    return Obra.distinct("compositor").exec()
 }
 
 Obras.periodos = () => {
-    return Obra.aggregate([{ $group: { _id: null, periodos: { $addToSet: "$periodo" } } }])
+    return Obra.distinct("periodo").exec()
 }
 
 Obras.lista_ano = (ano) => {
