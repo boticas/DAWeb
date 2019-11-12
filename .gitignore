@@ -1,11 +1,3 @@
 aulas/
-TP5/node_modules/
-TP5/package-lock.json
-TP6/node_modules/
-TP6/package-lock.json
-TP7/filmes/node_modules/
-TP7/filmes/package-lock.json
-TP8/nobelPrizes/node_modules/
-TP8/nobelPrizes/package-lock.json
-aula_9/parte_1/node_modules/
-aula_9/parte_2/package-lock.json
+node_modules/
+package-lock.json
