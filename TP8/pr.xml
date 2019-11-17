@@ -36,7 +36,7 @@
         <deliverable path="./nobelPrizes/app.js">Servidor Node.js</deliverable>
         <deliverable path="./nobelPrizes/routes/api.js">API pedida</deliverable>
         <deliverable path="./nobelPrizes/routes/">Todos os roteadores, incluindo a interface web</deliverable>
-        <deliverable path="./nobelPrizes/modules/premios.js">Esquema base dos documentos da base de dados</deliverable>
+        <deliverable path="./nobelPrizes/models/premios.js">Esquema base dos documentos da base de dados</deliverable>
         <deliverable path="./nobelPrizes/controllers/premios.js">Controlador para os documentos da base de dados</deliverable>
         <deliverable path="./nobelPrizes/views/">Templates das páginas HTML, em pug, para uso do servidor</deliverable>
         <deliverable path="./nobelPrizes/public/images/">Imagens do cliente</deliverable>
