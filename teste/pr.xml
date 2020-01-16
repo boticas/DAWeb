@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>TP8-PG41081-JB</keyname>
+        <title>TP8 - Webserver para aquivo sonoro, com Express</title>
+        <subtitle>Trabalho nº8, inserido nos TPC da UC de Desenvolvimento de Aplicações Web 2019.</subtitle>
+        <supervisor homepage="https://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+        <date>16/01/2020</date>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41081</identifier>
+            <name>José Boticas</name>
+            <email>pg41081@alunos.uminho.pt</email>
+            <git>https://github.com/SacitobJose</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este é o teste de avaliação da UC "Desenvolvimento de Aplicações WEB"
+        </p>
+        <p>
+            O primeiro exercício exigiu um cuidado adicional com o ficheiro que continha os dados.
+            A primeira coisa a fazer foi transformar o ficheiro XML num ficheiro JSON. Para isso, usou-se um conversor online.
+            Depois, tratou-se o mesmo ficheiro, sendo que foi necessário: 
+                <ol>
+                    <li>transformá-lo, como um todo, num array;</li>
+                    <li>transformar o elemento "instrumentos" num array, descartando-se o elemento filho "instrumento";</li>
+                    <li>adicionar o elemento "instrumentos" onde necessário.</li>
+                </ol>
+            Após estas alterações, importou-se o dataset com o seguinte comando: "mongoimport --db amd --collection obra  --file arquivo-musica-digital.json --jsonArray".
+            Por fim, bastou montar a API pedida. De realçar que a API admite existir uma base de dados de nome "amd", com uma coleção de nome "obra".
+            O servidor está à escuta na porta 3004.
+        </p>
+        <p>
+            Para o segundo exercício foi necessário desenvolver uma aplicação node.js que permitisse navegar a informação sobre a CLAV.
+            Antes, foi pedido que se respondesse às seguintes questões:
+            <ol>
+                <li>
+                    <b>Quantas entidades estão catalogadas?</b>
+                    547
+                </li>
+                <li>
+                    <b>A que Tipologias pertence a Entidade "Autoridade para as Condições de Trabalho" (ent_ACT)?</b>
+                    "Administração Pública" e "Autoridades de supervisão e fiscalização"
+                </li>
+                <li>
+                    <b>Em que processos a entidade "Autoridade Nacional de Segurança Rodoviária" (ent_ANSR) participa como Iniciador?</b>
+                    Registo nacional de condutores
+                </li>
+                <li>
+                    <b>De que processos é dona a entidade "Colégio Militar" (ent_CMil)?</b>
+                    Realização de atividades de formação e treino animal
+                </li>
+            </ol>
+            O servidor está à escuta na porta 3005.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.xml">Este documento</deliverable>
+        <deliverable path="./exercicio_1/">Todos os ficheiros necessários ao funcionamento do primeiro exercício</deliverable>
+        <deliverable path="./exercicio_1/aquivo-musical-digital.json">Dataset em JSON, pronto a ser importado</deliverable>
+        <deliverable path="./exercicio_2">Todos os ficheiros necessários ao funcionamento do segundo exercício</deliverable>
+    </deliverables>
+</pr>
